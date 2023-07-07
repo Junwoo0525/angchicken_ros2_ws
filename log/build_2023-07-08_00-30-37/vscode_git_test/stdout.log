@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating vscode_git_test.egg-info
+writing vscode_git_test.egg-info/PKG-INFO
+writing dependency_links to vscode_git_test.egg-info/dependency_links.txt
+writing entry points to vscode_git_test.egg-info/entry_points.txt
+writing requirements to vscode_git_test.egg-info/requires.txt
+writing top-level names to vscode_git_test.egg-info/top_level.txt
+writing manifest file 'vscode_git_test.egg-info/SOURCES.txt'
+reading manifest file 'vscode_git_test.egg-info/SOURCES.txt'
+writing manifest file 'vscode_git_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/junwoo/angchicken_ros2_ws/install/vscode_git_test/lib/python3.8/site-packages/site.py
+Creating /home/junwoo/angchicken_ros2_ws/install/vscode_git_test/lib/python3.8/site-packages/vscode-git-test.egg-link (link to .)
+
+Installed /home/junwoo/angchicken_ros2_ws/build/vscode_git_test
+running install_data
+creating /home/junwoo/angchicken_ros2_ws/install/vscode_git_test/share/ament_index
+creating /home/junwoo/angchicken_ros2_ws/install/vscode_git_test/share/ament_index/resource_index
+creating /home/junwoo/angchicken_ros2_ws/install/vscode_git_test/share/ament_index/resource_index/packages
+copying resource/vscode_git_test -> /home/junwoo/angchicken_ros2_ws/install/vscode_git_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/junwoo/angchicken_ros2_ws/install/vscode_git_test/share/vscode_git_test

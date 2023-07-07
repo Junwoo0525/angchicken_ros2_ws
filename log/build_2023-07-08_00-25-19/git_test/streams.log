@@ -1,0 +1,16 @@
+[1.289s] Invoking command in '/home/junwoo/angchicken_ros2_ws/build/git_test': PYTHONPATH=/home/junwoo/angchicken_ros2_ws/build/git_test/prefix_override:/home/junwoo/angchicken_ros2_ws/install/git_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/junwoo/angchicken_ros2_ws/build/git_test/build --no-deps install_data
+[1.529s] running develop
+[1.698s] running egg_info
+[1.699s] writing git_test.egg-info/PKG-INFO
+[1.699s] writing dependency_links to git_test.egg-info/dependency_links.txt
+[1.699s] writing entry points to git_test.egg-info/entry_points.txt
+[1.700s] writing requirements to git_test.egg-info/requires.txt
+[1.700s] writing top-level names to git_test.egg-info/top_level.txt
+[1.736s] reading manifest file 'git_test.egg-info/SOURCES.txt'
+[1.737s] writing manifest file 'git_test.egg-info/SOURCES.txt'
+[1.769s] running build_ext
+[1.772s] Creating /home/junwoo/angchicken_ros2_ws/install/git_test/lib/python3.8/site-packages/git-test.egg-link (link to .)
+[1.773s] 
+[1.773s] Installed /home/junwoo/angchicken_ros2_ws/build/git_test
+[1.773s] running install_data
+[1.801s] Invoked command in '/home/junwoo/angchicken_ros2_ws/build/git_test' returned '0': PYTHONPATH=/home/junwoo/angchicken_ros2_ws/build/git_test/prefix_override:/home/junwoo/angchicken_ros2_ws/install/git_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/junwoo/angchicken_ros2_ws/build/git_test/build --no-deps install_data

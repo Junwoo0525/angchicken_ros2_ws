@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing git_test.egg-info/PKG-INFO
+writing dependency_links to git_test.egg-info/dependency_links.txt
+writing entry points to git_test.egg-info/entry_points.txt
+writing requirements to git_test.egg-info/requires.txt
+writing top-level names to git_test.egg-info/top_level.txt
+reading manifest file 'git_test.egg-info/SOURCES.txt'
+writing manifest file 'git_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/junwoo/angchicken_ros2_ws/install/git_test/lib/python3.8/site-packages/git-test.egg-link (link to .)
+
+Installed /home/junwoo/angchicken_ros2_ws/build/git_test
+running install_data

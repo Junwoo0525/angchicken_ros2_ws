@@ -8,7 +8,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 
 def generate_launch_description():
-    package_name = 'angchicken'
+    package_name = 'track_test'
     package_path = os.path.join(get_package_share_directory(package_name))
     
     robot_file = 'testcar.urdf'

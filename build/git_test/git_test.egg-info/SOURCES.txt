@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+git_test/__init__.py
+git_test/git_test.py
+git_test.egg-info/PKG-INFO
+git_test.egg-info/SOURCES.txt
+git_test.egg-info/dependency_links.txt
+git_test.egg-info/entry_points.txt
+git_test.egg-info/requires.txt
+git_test.egg-info/top_level.txt
+git_test.egg-info/zip-safe
+resource/git_test

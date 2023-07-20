@@ -1,1 +1,0 @@
-/home/jisu/test_ros2_ws/build/turtlesim/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h

@@ -1,1 +1,0 @@
-/home/jisu/test_ros2_ws/src/ros_tutorials/turtlesim/launch/multisim.launch.py

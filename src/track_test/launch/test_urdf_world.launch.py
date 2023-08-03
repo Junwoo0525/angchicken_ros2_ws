@@ -44,13 +44,13 @@ def generate_launch_description():
             parameters=[robot_description]
         ),
 
-        # spawn_entity
-        Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            output='screen',
-            arguments=['-topic', 'robot_description', '-entity', package_name]
-        ),
+        # # spawn_entity
+        # Node(
+        #     package='gazebo_ros',
+        #     executable='spawn_entity.py',
+        #     output='screen',
+        #     arguments=['-topic', 'robot_description', '-entity', package_name]
+        # ),
 
         # # rviz2
         # Node(
@@ -59,10 +59,10 @@ def generate_launch_description():
         #     output='screen'
         # ),
 
-        # # joint_state_publisher_gui
-        # Node(
-        #     package='joint_state_publisher_gui',
-        #     executable='joint_state_publisher_gui',
-        #     output='screen'
-        # ),
+        # joint_state_publisher_gui
+        Node(
+            package='joint_state_publisher_gui',
+            executable='joint_state_publisher_gui',
+            output='screen'
+        ),
     ])

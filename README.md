@@ -11,8 +11,8 @@ track_test를 구동시킬 때 필요한 models 파일.
 ## lane_detection_py
 방향 인식, 정지선 검출 시 = 0~4초 멈춤 - 4~8초 방향 인식 가능 - 8초~ 방향,정지선 인식 가능
 
-##text_detection
+## text_detection
 knn은 되는데 개느림. cnn해보는중. 색으로 해야할거같음. 
 
-##move_py
+## move_py
 하다가 만거

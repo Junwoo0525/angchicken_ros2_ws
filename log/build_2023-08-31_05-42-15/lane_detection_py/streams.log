@@ -1,0 +1,24 @@
+[1.612s] Invoking command in '/home/choi/angchicken_ros2_ws/build/lane_detection_py': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/lane_detection_py/build
+[1.969s] running develop
+[2.232s] Invoked command in '/home/choi/angchicken_ros2_ws/build/lane_detection_py' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/lane_detection_py/build
+[2.233s] Invoking command in '/home/choi/angchicken_ros2_ws/src/lane_detection_py': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_detection_py build --build-base /home/choi/angchicken_ros2_ws/build/lane_detection_py/build install --record /home/choi/angchicken_ros2_ws/build/lane_detection_py/install.log --install-scripts $base/lib/lane_detection_py --single-version-externally-managed
+[2.587s] running egg_info
+[2.587s] writing ../../build/lane_detection_py/lane_detection_py.egg-info/PKG-INFO
+[2.588s] writing dependency_links to ../../build/lane_detection_py/lane_detection_py.egg-info/dependency_links.txt
+[2.589s] writing entry points to ../../build/lane_detection_py/lane_detection_py.egg-info/entry_points.txt
+[2.589s] writing requirements to ../../build/lane_detection_py/lane_detection_py.egg-info/requires.txt
+[2.590s] writing top-level names to ../../build/lane_detection_py/lane_detection_py.egg-info/top_level.txt
+[2.633s] reading manifest file '../../build/lane_detection_py/lane_detection_py.egg-info/SOURCES.txt'
+[2.633s] writing manifest file '../../build/lane_detection_py/lane_detection_py.egg-info/SOURCES.txt'
+[2.634s] running build
+[2.634s] running build_py
+[2.635s] running install
+[2.635s] running install_lib
+[2.636s] running install_data
+[2.639s] running install_egg_info
+[2.640s] removing '/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py-0.0.0-py3.8.egg-info' (and everything under it)
+[2.640s] Copying ../../build/lane_detection_py/lane_detection_py.egg-info to /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py-0.0.0-py3.8.egg-info
+[2.641s] running install_scripts
+[2.663s] Installing lane_detection_node script to /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/lane_detection_py
+[2.664s] writing list of installed files to '/home/choi/angchicken_ros2_ws/build/lane_detection_py/install.log'
+[2.706s] Invoked command in '/home/choi/angchicken_ros2_ws/src/lane_detection_py' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_detection_py build --build-base /home/choi/angchicken_ros2_ws/build/lane_detection_py/build install --record /home/choi/angchicken_ros2_ws/build/lane_detection_py/install.log --install-scripts $base/lib/lane_detection_py --single-version-externally-managed

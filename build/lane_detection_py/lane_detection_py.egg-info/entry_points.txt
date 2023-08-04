@@ -1,0 +1,3 @@
+[console_scripts]
+lane_detection_node = lane_detection_py.lane_detection_node:main
+

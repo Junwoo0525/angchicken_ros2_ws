@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating text_detection.egg-info
+writing text_detection.egg-info/PKG-INFO
+writing dependency_links to text_detection.egg-info/dependency_links.txt
+writing entry points to text_detection.egg-info/entry_points.txt
+writing requirements to text_detection.egg-info/requires.txt
+writing top-level names to text_detection.egg-info/top_level.txt
+writing manifest file 'text_detection.egg-info/SOURCES.txt'
+reading manifest file 'text_detection.egg-info/SOURCES.txt'
+writing manifest file 'text_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages/site.py
+Creating /home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages/text-detection.egg-link (link to .)
+
+Installed /home/choi/angchicken_ros2_ws/build/text_detection
+running install_data
+creating /home/choi/angchicken_ros2_ws/install/text_detection/share/ament_index
+creating /home/choi/angchicken_ros2_ws/install/text_detection/share/ament_index/resource_index
+creating /home/choi/angchicken_ros2_ws/install/text_detection/share/ament_index/resource_index/packages
+copying resource/text_detection -> /home/choi/angchicken_ros2_ws/install/text_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection

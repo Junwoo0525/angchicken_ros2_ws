@@ -1,0 +1,25 @@
+[1.410s] Invoking command in '/home/choi/angchicken_ros2_ws/build/lane_detection_py': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/lane_detection_py/build --no-deps install_data
+[1.699s] running develop
+[1.881s] running egg_info
+[1.881s] creating lane_detection_py.egg-info
+[1.882s] writing lane_detection_py.egg-info/PKG-INFO
+[1.882s] writing dependency_links to lane_detection_py.egg-info/dependency_links.txt
+[1.882s] writing entry points to lane_detection_py.egg-info/entry_points.txt
+[1.882s] writing requirements to lane_detection_py.egg-info/requires.txt
+[1.882s] writing top-level names to lane_detection_py.egg-info/top_level.txt
+[1.884s] writing manifest file 'lane_detection_py.egg-info/SOURCES.txt'
+[1.914s] reading manifest file 'lane_detection_py.egg-info/SOURCES.txt'
+[1.915s] writing manifest file 'lane_detection_py.egg-info/SOURCES.txt'
+[1.954s] running build_ext
+[1.954s] Creating /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/site.py
+[1.966s] Creating /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane-detection-py.egg-link (link to .)
+[1.967s] Installing lane_detection_node script to /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/lane_detection_py
+[1.967s] 
+[1.967s] Installed /home/choi/angchicken_ros2_ws/build/lane_detection_py
+[1.968s] running install_data
+[1.968s] creating /home/choi/angchicken_ros2_ws/install/lane_detection_py/share/ament_index
+[1.968s] creating /home/choi/angchicken_ros2_ws/install/lane_detection_py/share/ament_index/resource_index
+[1.968s] creating /home/choi/angchicken_ros2_ws/install/lane_detection_py/share/ament_index/resource_index/packages
+[1.968s] copying resource/lane_detection_py -> /home/choi/angchicken_ros2_ws/install/lane_detection_py/share/ament_index/resource_index/packages
+[1.969s] copying package.xml -> /home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py
+[2.016s] Invoked command in '/home/choi/angchicken_ros2_ws/build/lane_detection_py' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/lane_detection_py/build --no-deps install_data

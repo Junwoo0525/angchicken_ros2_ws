@@ -1,0 +1,29 @@
+[0.027s] Invoking command in '/home/choi/angchicken_ros2_ws/build/track_test': /usr/bin/cmake --build /home/choi/angchicken_ros2_ws/build/track_test -- -j4 -l4
+[0.096s] Invoked command in '/home/choi/angchicken_ros2_ws/build/track_test' returned '0': /usr/bin/cmake --build /home/choi/angchicken_ros2_ws/build/track_test -- -j4 -l4
+[0.135s] Invoking command in '/home/choi/angchicken_ros2_ws/build/track_test': /usr/bin/cmake --install /home/choi/angchicken_ros2_ws/build/track_test
+[0.149s] -- Install configuration: ""
+[0.150s] -- Execute custom install script
+[0.153s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/urdf/testcar.urdf
+[0.154s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/launch/test_s_world.launch.py
+[0.155s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/launch/test_urdf_world.launch.py
+[0.155s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/launch/track_test.launch.py
+[0.156s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/worlds/track_s_test.world
+[0.156s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/worlds/track_sample.world
+[0.157s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/worlds/track_sample_default.world
+[0.165s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/worlds/track_sample_testcar.world
+[0.165s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/ament_index/resource_index/package_run_dependencies/track_test
+[0.165s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/ament_index/resource_index/parent_prefix_path/track_test
+[0.166s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/environment/ament_prefix_path.sh
+[0.166s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/environment/path.sh
+[0.166s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/environment/path.dsv
+[0.166s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/local_setup.bash
+[0.166s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/local_setup.sh
+[0.174s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/local_setup.zsh
+[0.174s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/local_setup.dsv
+[0.175s] -- Symlinking: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.dsv
+[0.195s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/ament_index/resource_index/packages/track_test
+[0.195s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/cmake/track_testConfig.cmake
+[0.196s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/cmake/track_testConfig-version.cmake
+[0.196s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.xml
+[0.208s] Invoked command in '/home/choi/angchicken_ros2_ws/build/track_test' returned '0': /usr/bin/cmake --install /home/choi/angchicken_ros2_ws/build/track_test

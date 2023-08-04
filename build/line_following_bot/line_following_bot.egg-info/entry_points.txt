@@ -1,0 +1,4 @@
+[console_scripts]
+image_acquisition_node = line_following_bot.image_acquisition_node:main
+lane_detection_node = line_following_bot.lane_detection_node:main
+

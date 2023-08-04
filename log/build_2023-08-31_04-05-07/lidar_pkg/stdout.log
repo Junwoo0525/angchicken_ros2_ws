@@ -1,0 +1,8 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/choi/angchicken_ros2_ws/build/lidar_pkg/CMakeFiles/CMakeOutput.log".
+See also "/home/choi/angchicken_ros2_ws/build/lidar_pkg/CMakeFiles/CMakeError.log".

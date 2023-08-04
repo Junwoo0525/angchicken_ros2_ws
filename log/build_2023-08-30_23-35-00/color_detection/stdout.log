@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating color_detection.egg-info
+writing color_detection.egg-info/PKG-INFO
+writing dependency_links to color_detection.egg-info/dependency_links.txt
+writing entry points to color_detection.egg-info/entry_points.txt
+writing requirements to color_detection.egg-info/requires.txt
+writing top-level names to color_detection.egg-info/top_level.txt
+writing manifest file 'color_detection.egg-info/SOURCES.txt'
+reading manifest file 'color_detection.egg-info/SOURCES.txt'
+writing manifest file 'color_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages/site.py
+Creating /home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages/color-detection.egg-link (link to .)
+Installing color_detection_node script to /home/choi/angchicken_ros2_ws/install/color_detection/lib/color_detection
+
+Installed /home/choi/angchicken_ros2_ws/build/color_detection
+running install_data
+creating /home/choi/angchicken_ros2_ws/install/color_detection/share/ament_index
+creating /home/choi/angchicken_ros2_ws/install/color_detection/share/ament_index/resource_index
+creating /home/choi/angchicken_ros2_ws/install/color_detection/share/ament_index/resource_index/packages
+copying resource/color_detection -> /home/choi/angchicken_ros2_ws/install/color_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection

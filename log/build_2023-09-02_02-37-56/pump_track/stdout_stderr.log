@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing pump_track.egg-info/PKG-INFO
+writing dependency_links to pump_track.egg-info/dependency_links.txt
+writing entry points to pump_track.egg-info/entry_points.txt
+writing requirements to pump_track.egg-info/requires.txt
+writing top-level names to pump_track.egg-info/top_level.txt
+reading manifest file 'pump_track.egg-info/SOURCES.txt'
+writing manifest file 'pump_track.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages/pump-track.egg-link (link to .)
+Installing diffbot_cont script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+Installing pump_pub script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+
+Installed /home/choi/angchicken_ros2_ws/build/pump_track
+running install_data

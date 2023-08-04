@@ -1,0 +1,9 @@
+source;share/text_detection/hook/pythonpath.ps1
+source;share/text_detection/hook/pythonpath.dsv
+source;share/text_detection/hook/pythonpath.sh
+source;share/text_detection/hook/ament_prefix_path.ps1
+source;share/text_detection/hook/ament_prefix_path.dsv
+source;share/text_detection/hook/ament_prefix_path.sh
+source;../../build/text_detection/share/text_detection/hook/pythonpath_develop.ps1
+source;../../build/text_detection/share/text_detection/hook/pythonpath_develop.dsv
+source;../../build/text_detection/share/text_detection/hook/pythonpath_develop.sh

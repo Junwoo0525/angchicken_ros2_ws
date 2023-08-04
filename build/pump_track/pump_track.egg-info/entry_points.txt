@@ -1,0 +1,4 @@
+[console_scripts]
+diffbot_cont = pump_track.diffbot_control:main
+pump_pub = pump_track.pump_publisher:main
+

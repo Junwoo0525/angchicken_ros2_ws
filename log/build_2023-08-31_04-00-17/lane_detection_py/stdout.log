@@ -1,0 +1,36 @@
+running develop
+Removing /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane-detection-py.egg-link (link to .)
+running egg_info
+writing ../../build/lane_detection_py/lane_detection_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/lane_detection_py/lane_detection_py.egg-info/dependency_links.txt
+writing entry points to ../../build/lane_detection_py/lane_detection_py.egg-info/entry_points.txt
+writing requirements to ../../build/lane_detection_py/lane_detection_py.egg-info/requires.txt
+writing top-level names to ../../build/lane_detection_py/lane_detection_py.egg-info/top_level.txt
+reading manifest file '../../build/lane_detection_py/lane_detection_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/lane_detection_py/lane_detection_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/choi/angchicken_ros2_ws/build/lane_detection_py/build
+creating /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib
+creating /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib/lane_detection_py
+copying lane_detection_py/lane_detection_sample_node.py -> /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib/lane_detection_py
+copying lane_detection_py/realsense_rviz.py -> /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib/lane_detection_py
+copying lane_detection_py/__init__.py -> /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib/lane_detection_py
+copying lane_detection_py/lane_detection_node.py -> /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib/lane_detection_py
+running install
+running install_lib
+creating /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py
+copying /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib/lane_detection_py/lane_detection_sample_node.py -> /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py
+copying /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib/lane_detection_py/realsense_rviz.py -> /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py
+copying /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib/lane_detection_py/__init__.py -> /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py
+copying /home/choi/angchicken_ros2_ws/build/lane_detection_py/build/lib/lane_detection_py/lane_detection_node.py -> /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py
+byte-compiling /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py/lane_detection_sample_node.py to lane_detection_sample_node.cpython-38.pyc
+byte-compiling /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py/realsense_rviz.py to realsense_rviz.cpython-38.pyc
+byte-compiling /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py/lane_detection_node.py to lane_detection_node.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/lane_detection_py/lane_detection_py.egg-info to /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane_detection_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing lane_detection_node script to /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/lane_detection_py
+writing list of installed files to '/home/choi/angchicken_ros2_ws/build/lane_detection_py/install.log'

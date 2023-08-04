@@ -1,0 +1,4 @@
+Invoking command in '/home/choi/angchicken_ros2_ws/build/track_test': /usr/bin/cmake --build /home/choi/angchicken_ros2_ws/build/track_test -- -j4 -l4
+Invoked command in '/home/choi/angchicken_ros2_ws/build/track_test' returned '0': /usr/bin/cmake --build /home/choi/angchicken_ros2_ws/build/track_test -- -j4 -l4
+Invoking command in '/home/choi/angchicken_ros2_ws/build/track_test': /usr/bin/cmake --install /home/choi/angchicken_ros2_ws/build/track_test
+Invoked command in '/home/choi/angchicken_ros2_ws/build/track_test' returned '0': /usr/bin/cmake --install /home/choi/angchicken_ros2_ws/build/track_test

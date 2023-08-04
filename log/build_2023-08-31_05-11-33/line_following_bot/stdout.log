@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing line_following_bot.egg-info/PKG-INFO
+writing dependency_links to line_following_bot.egg-info/dependency_links.txt
+writing entry points to line_following_bot.egg-info/entry_points.txt
+writing requirements to line_following_bot.egg-info/requires.txt
+writing top-level names to line_following_bot.egg-info/top_level.txt
+reading manifest file 'line_following_bot.egg-info/SOURCES.txt'
+writing manifest file 'line_following_bot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/site.py
+Creating /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line-following-bot.egg-link (link to .)
+Installing image_acquisition_node script to /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/line_following_bot
+
+Installed /home/choi/angchicken_ros2_ws/build/line_following_bot
+running install_data

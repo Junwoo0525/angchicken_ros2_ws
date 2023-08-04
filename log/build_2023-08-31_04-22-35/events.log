@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000308] (-) JobUnselected: {'identifier': 'color_detection'}
+[0.000341] (-) JobUnselected: {'identifier': 'lane_detection_pkg'}
+[0.000394] (-) JobUnselected: {'identifier': 'lane_detection_py'}
+[0.000427] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.000453] (-) JobUnselected: {'identifier': 'move_py'}
+[0.000525] (-) JobUnselected: {'identifier': 'my_bot'}
+[0.000581] (-) JobUnselected: {'identifier': 'text_detection'}
+[0.000648] (-) JobUnselected: {'identifier': 'track_test'}
+[0.000682] (-) EventReactorShutdown: {}

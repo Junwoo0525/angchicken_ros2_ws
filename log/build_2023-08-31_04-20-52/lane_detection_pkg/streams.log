@@ -1,0 +1,33 @@
+[1.672s] Invoking command in '/home/choi/angchicken_ros2_ws/src/lane_detection_pkg': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_pkg/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_detection_pkg build --build-base /home/choi/angchicken_ros2_ws/build/lane_detection_pkg/build install --record /home/choi/angchicken_ros2_ws/build/lane_detection_pkg/install.log --install-scripts $base/lib/lane_detection_pkg --single-version-externally-managed
+[1.986s] running egg_info
+[1.987s] creating ../../build/lane_detection_pkg/lane_detection_pkg.egg-info
+[1.988s] writing ../../build/lane_detection_pkg/lane_detection_pkg.egg-info/PKG-INFO
+[1.989s] writing dependency_links to ../../build/lane_detection_pkg/lane_detection_pkg.egg-info/dependency_links.txt
+[1.989s] writing entry points to ../../build/lane_detection_pkg/lane_detection_pkg.egg-info/entry_points.txt
+[1.990s] writing requirements to ../../build/lane_detection_pkg/lane_detection_pkg.egg-info/requires.txt
+[1.993s] writing top-level names to ../../build/lane_detection_pkg/lane_detection_pkg.egg-info/top_level.txt
+[1.996s] writing manifest file '../../build/lane_detection_pkg/lane_detection_pkg.egg-info/SOURCES.txt'
+[2.038s] reading manifest file '../../build/lane_detection_pkg/lane_detection_pkg.egg-info/SOURCES.txt'
+[2.040s] writing manifest file '../../build/lane_detection_pkg/lane_detection_pkg.egg-info/SOURCES.txt'
+[2.044s] running build
+[2.044s] running build_py
+[2.044s] creating /home/choi/angchicken_ros2_ws/build/lane_detection_pkg/build
+[2.044s] creating /home/choi/angchicken_ros2_ws/build/lane_detection_pkg/build/lib
+[2.045s] creating /home/choi/angchicken_ros2_ws/build/lane_detection_pkg/build/lib/lane_detection_pkg
+[2.045s] copying lane_detection_pkg/__init__.py -> /home/choi/angchicken_ros2_ws/build/lane_detection_pkg/build/lib/lane_detection_pkg
+[2.045s] running install
+[2.049s] running install_lib
+[2.050s] creating /home/choi/angchicken_ros2_ws/install/lane_detection_pkg/lib/python3.8/site-packages/lane_detection_pkg
+[2.051s] copying /home/choi/angchicken_ros2_ws/build/lane_detection_pkg/build/lib/lane_detection_pkg/__init__.py -> /home/choi/angchicken_ros2_ws/install/lane_detection_pkg/lib/python3.8/site-packages/lane_detection_pkg
+[2.052s] byte-compiling /home/choi/angchicken_ros2_ws/install/lane_detection_pkg/lib/python3.8/site-packages/lane_detection_pkg/__init__.py to __init__.cpython-38.pyc
+[2.054s] running install_data
+[2.056s] creating /home/choi/angchicken_ros2_ws/install/lane_detection_pkg/share/ament_index
+[2.056s] creating /home/choi/angchicken_ros2_ws/install/lane_detection_pkg/share/ament_index/resource_index
+[2.057s] creating /home/choi/angchicken_ros2_ws/install/lane_detection_pkg/share/ament_index/resource_index/packages
+[2.059s] copying resource/lane_detection_pkg -> /home/choi/angchicken_ros2_ws/install/lane_detection_pkg/share/ament_index/resource_index/packages
+[2.061s] copying package.xml -> /home/choi/angchicken_ros2_ws/install/lane_detection_pkg/share/lane_detection_pkg
+[2.061s] running install_egg_info
+[2.064s] Copying ../../build/lane_detection_pkg/lane_detection_pkg.egg-info to /home/choi/angchicken_ros2_ws/install/lane_detection_pkg/lib/python3.8/site-packages/lane_detection_pkg-0.0.0-py3.8.egg-info
+[2.066s] running install_scripts
+[2.089s] writing list of installed files to '/home/choi/angchicken_ros2_ws/build/lane_detection_pkg/install.log'
+[2.140s] Invoked command in '/home/choi/angchicken_ros2_ws/src/lane_detection_pkg' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_pkg/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_detection_pkg build --build-base /home/choi/angchicken_ros2_ws/build/lane_detection_pkg/build install --record /home/choi/angchicken_ros2_ws/build/lane_detection_pkg/install.log --install-scripts $base/lib/lane_detection_pkg --single-version-externally-managed

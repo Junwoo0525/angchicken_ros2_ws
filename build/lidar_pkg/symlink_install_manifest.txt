@@ -1,0 +1,17 @@
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/launch/lidar_code.launch.py
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/lib/lidar_pkg/lidar_code
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.dsv
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.xml

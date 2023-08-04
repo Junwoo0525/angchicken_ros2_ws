@@ -1,0 +1,4 @@
+Invoking command in '/home/choi/angchicken_ros2_ws/build/my_bot': /usr/bin/cmake --build /home/choi/angchicken_ros2_ws/build/my_bot -- -j4 -l4
+Invoked command in '/home/choi/angchicken_ros2_ws/build/my_bot' returned '0': /usr/bin/cmake --build /home/choi/angchicken_ros2_ws/build/my_bot -- -j4 -l4
+Invoking command in '/home/choi/angchicken_ros2_ws/build/my_bot': /usr/bin/cmake --install /home/choi/angchicken_ros2_ws/build/my_bot
+Invoked command in '/home/choi/angchicken_ros2_ws/build/my_bot' returned '0': /usr/bin/cmake --install /home/choi/angchicken_ros2_ws/build/my_bot

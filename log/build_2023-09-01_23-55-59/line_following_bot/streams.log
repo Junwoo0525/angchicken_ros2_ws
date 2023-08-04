@@ -1,0 +1,18 @@
+[1.509s] Invoking command in '/home/choi/angchicken_ros2_ws/build/line_following_bot': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/line_following_bot/build --no-deps install_data
+[1.854s] running develop
+[2.054s] running egg_info
+[2.055s] writing line_following_bot.egg-info/PKG-INFO
+[2.055s] writing dependency_links to line_following_bot.egg-info/dependency_links.txt
+[2.055s] writing entry points to line_following_bot.egg-info/entry_points.txt
+[2.056s] writing requirements to line_following_bot.egg-info/requires.txt
+[2.056s] writing top-level names to line_following_bot.egg-info/top_level.txt
+[2.090s] reading manifest file 'line_following_bot.egg-info/SOURCES.txt'
+[2.092s] writing manifest file 'line_following_bot.egg-info/SOURCES.txt'
+[2.132s] running build_ext
+[2.133s] Creating /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line-following-bot.egg-link (link to .)
+[2.134s] Installing image_acquisition_node script to /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/line_following_bot
+[2.135s] Installing lane_detection_node script to /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/line_following_bot
+[2.135s] 
+[2.135s] Installed /home/choi/angchicken_ros2_ws/build/line_following_bot
+[2.135s] running install_data
+[2.207s] Invoked command in '/home/choi/angchicken_ros2_ws/build/line_following_bot' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/line_following_bot/build --no-deps install_data

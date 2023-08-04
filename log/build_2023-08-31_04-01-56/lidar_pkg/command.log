@@ -1,0 +1,4 @@
+Invoking command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg': /usr/bin/cmake --build /home/choi/angchicken_ros2_ws/build/lidar_pkg -- -j4 -l4
+Invoked command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg' returned '0': /usr/bin/cmake --build /home/choi/angchicken_ros2_ws/build/lidar_pkg -- -j4 -l4
+Invoking command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg': /usr/bin/cmake --install /home/choi/angchicken_ros2_ws/build/lidar_pkg
+Invoked command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg' returned '0': /usr/bin/cmake --install /home/choi/angchicken_ros2_ws/build/lidar_pkg

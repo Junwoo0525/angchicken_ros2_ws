@@ -1,0 +1,80 @@
+[0.684s] Invoking command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/angchicken_ros2_ws/src/lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/choi/angchicken_ros2_ws/install/lidar_pkg
+[1.024s] -- The C compiler identification is GNU 9.4.0
+[1.127s] -- The CXX compiler identification is GNU 9.4.0
+[1.163s] -- Detecting C compiler ABI info
+[1.272s] -- Detecting C compiler ABI info - done
+[1.308s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.309s] -- Detecting C compile features
+[1.310s] -- Detecting C compile features - done
+[1.325s] -- Detecting CXX compiler ABI info
+[1.440s] -- Detecting CXX compiler ABI info - done
+[1.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.468s] -- Detecting CXX compile features
+[1.469s] -- Detecting CXX compile features - done
+[1.472s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.477s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.477s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.477s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.478s]   the cmake_policy command to set the policy and suppress this warning.
+[1.478s] 
+[1.478s] Call Stack (most recent call first):
+[1.479s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.479s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.480s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.480s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.480s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.481s]   CMakeLists.txt:19 (find_package)
+[1.481s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.481s] [0m
+[1.534s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.826s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.846s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.926s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.213s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.218s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.396s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.556s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.684s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.684s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.684s] -- Configured cppcheck include dirs: 
+[2.685s] -- Configured cppcheck exclude dirs and/or files: 
+[2.685s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.685s] -- Configured cpplint exclude dirs and/or files: 
+[2.685s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.686s] -- Added test 'lint_cmake' to check CMake code style
+[2.686s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.687s] -- Added test 'uncrustify' to check C / C++ code style
+[2.687s] -- Configured uncrustify additional arguments: 
+[2.688s] -- Added test 'xmllint' to check XML markup files
+[2.692s] -- Configuring done (2.0s)
+[2.704s] -- Generating done (0.0s)
+[2.706s] -- Build files have been written to: /home/choi/angchicken_ros2_ws/build/lidar_pkg
+[3.037s] Invoked command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/angchicken_ros2_ws/src/lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/choi/angchicken_ros2_ws/install/lidar_pkg
+[3.041s] Invoking command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/lidar_pkg -- -j4 -l4
+[3.119s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_code.dir/src/lidar_code.cpp.o[0m
+[8.812s] [100%] [32m[1mLinking CXX executable lidar_code[0m
+[9.107s] [100%] Built target lidar_code
+[9.119s] Invoked command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/lidar_pkg -- -j4 -l4
+[9.199s] Invoking command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/lidar_pkg
+[9.247s] -- Install configuration: ""
+[9.248s] -- Execute custom install script
+[9.249s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/launch/lidar_code.launch.py
+[9.249s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/lib/lidar_pkg/lidar_code
+[9.250s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+[9.250s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+[9.250s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+[9.250s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+[9.251s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+[9.252s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+[9.252s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+[9.252s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+[9.252s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+[9.252s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+[9.252s] -- Symlinking: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.dsv
+[9.255s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+[9.255s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+[9.256s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+[9.256s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.xml
+[9.272s] Invoked command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/lidar_pkg

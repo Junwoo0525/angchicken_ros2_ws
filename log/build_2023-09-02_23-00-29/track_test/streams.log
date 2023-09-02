@@ -1,0 +1,69 @@
+[0.074s] Invoking command in '/home/choi/angchicken_ros2_ws/build/track_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/angchicken_ros2_ws/src/track_test -DCMAKE_INSTALL_PREFIX=/home/choi/angchicken_ros2_ws/install/track_test
+[0.233s] -- The C compiler identification is GNU 9.4.0
+[0.312s] -- The CXX compiler identification is GNU 9.4.0
+[0.345s] -- Detecting C compiler ABI info
+[0.532s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.550s] -- Detecting C compile features
+[0.550s] -- Detecting C compile features - done
+[0.563s] -- Detecting CXX compiler ABI info
+[0.746s] -- Detecting CXX compiler ABI info - done
+[0.759s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.759s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.761s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.770s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.770s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.770s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.770s]   the cmake_policy command to set the policy and suppress this warning.
+[0.770s] 
+[0.770s] Call Stack (most recent call first):
+[0.770s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.771s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.771s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.771s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.771s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.771s]   CMakeLists.txt:19 (find_package)
+[0.771s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.771s] [0m
+[0.820s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.106s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.121s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.277s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.280s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.280s] -- Added test 'lint_cmake' to check CMake code style
+[1.281s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.287s] -- Added test 'xmllint' to check XML markup files
+[1.288s] -- Configuring done (1.1s)
+[1.293s] -- Generating done (0.0s)
+[1.298s] -- Build files have been written to: /home/choi/angchicken_ros2_ws/build/track_test
+[1.313s] Invoked command in '/home/choi/angchicken_ros2_ws/build/track_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/angchicken_ros2_ws/src/track_test -DCMAKE_INSTALL_PREFIX=/home/choi/angchicken_ros2_ws/install/track_test
+[1.314s] Invoking command in '/home/choi/angchicken_ros2_ws/build/track_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/track_test -- -j4 -l4
+[1.398s] Invoked command in '/home/choi/angchicken_ros2_ws/build/track_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/track_test -- -j4 -l4
+[1.493s] Invoking command in '/home/choi/angchicken_ros2_ws/build/track_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/track_test
+[1.550s] -- Install configuration: ""
+[1.550s] -- Execute custom install script
+[1.550s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/urdf/testcar.urdf
+[1.550s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/launch/test_s_world.launch.py
+[1.550s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/launch/test_urdf_world.launch.py
+[1.550s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/launch/track_test.launch.py
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/worlds/track_s_test.world
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/worlds/track_sample.world
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/worlds/track_sample_default.world
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/worlds/track_sample_testcar.world
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/ament_index/resource_index/package_run_dependencies/track_test
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/ament_index/resource_index/parent_prefix_path/track_test
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/environment/ament_prefix_path.sh
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/environment/ament_prefix_path.dsv
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/environment/path.sh
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/environment/path.dsv
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/local_setup.bash
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/local_setup.sh
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/local_setup.zsh
+[1.551s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/local_setup.dsv
+[1.551s] -- Symlinking: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.dsv
+[1.558s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/ament_index/resource_index/packages/track_test
+[1.559s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/cmake/track_testConfig.cmake
+[1.559s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/cmake/track_testConfig-version.cmake
+[1.559s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.xml
+[1.567s] Invoked command in '/home/choi/angchicken_ros2_ws/build/track_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/track_test

@@ -1,0 +1,688 @@
+[0.377s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.377s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff119406eb0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff119406eb0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff1194153d0>)
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.415s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/choi/angchicken_ros2_ws'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['cmake', 'python']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'cmake'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_ground) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/scripts) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_models/track_sample/materials/textures) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/color_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/color_detection) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/color_detection) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/color_detection) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/color_detection) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/color_detection) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/color_detection) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/color_detection) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/color_detection) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package 'src/color_detection' with type 'ros.ament_python' and name 'color_detection'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detection_py) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detection_py) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detection_py) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detection_py) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detection_py) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detection_py) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detection_py) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detection_py) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_detection_py) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lane_detection_py' with type 'ros.ament_python' and name 'lane_detection_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_pkg) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_pkg' with type 'ros.ament_cmake' and name 'lidar_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following_bot) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following_bot) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following_bot) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following_bot) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following_bot) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following_bot) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following_bot) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_following_bot) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/line_following_bot' with type 'ros.ament_python' and name 'line_following_bot'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_py) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_py) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_py) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_py) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_py) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_py) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_py) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_py) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_py) by extension 'ros'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_py' with type 'ros.ament_python' and name 'move_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/people_detect) by extension 'python_setup_py'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_track) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_track) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_track) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_track) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_track) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_track) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_track) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_track) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/pump_track) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pump_track' with type 'ros.ament_python' and name 'pump_track'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/text_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/text_detection) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/text_detection) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/text_detection) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/text_detection) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/text_detection) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/text_detection) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/text_detection) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/text_detection) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/text_detection' with type 'ros.ament_python' and name 'text_detection'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_test) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_test) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_test) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_test) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_test) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_test) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_test) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_test) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_test) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/track_test' with type 'ros.ament_cmake' and name 'track_test'
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.477s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/choi/angchicken_ros2_ws/install
+[0.479s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /home/choi/my_bot_ws/install
+[0.482s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/foxy
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'color_detection' build argument 'cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'color_detection' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'color_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'color_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'color_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'color_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'color_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'color_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'color_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.569s] DEBUG:colcon.colcon_core.verb:Building package 'color_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/angchicken_ros2_ws/build/color_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/angchicken_ros2_ws/install/color_detection', 'merge_install': False, 'path': '/home/choi/angchicken_ros2_ws/src/color_detection', 'symlink_install': True, 'test_result_base': None}
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'lane_detection_py' build argument 'cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'lane_detection_py' build argument 'cmake_target' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'lane_detection_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'lane_detection_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'lane_detection_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'lane_detection_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'lane_detection_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'lane_detection_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'lane_detection_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.571s] DEBUG:colcon.colcon_core.verb:Building package 'lane_detection_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/angchicken_ros2_ws/build/lane_detection_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/angchicken_ros2_ws/install/lane_detection_py', 'merge_install': False, 'path': '/home/choi/angchicken_ros2_ws/src/lane_detection_py', 'symlink_install': True, 'test_result_base': None}
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_target' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'lidar_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.573s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/angchicken_ros2_ws/build/lidar_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/angchicken_ros2_ws/install/lidar_pkg', 'merge_install': False, 'path': '/home/choi/angchicken_ros2_ws/src/lidar_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'line_following_bot' build argument 'cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'line_following_bot' build argument 'cmake_target' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'line_following_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'line_following_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'line_following_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'line_following_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'line_following_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'line_following_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'line_following_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.575s] DEBUG:colcon.colcon_core.verb:Building package 'line_following_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/angchicken_ros2_ws/build/line_following_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/angchicken_ros2_ws/install/line_following_bot', 'merge_install': False, 'path': '/home/choi/angchicken_ros2_ws/src/line_following_bot', 'symlink_install': True, 'test_result_base': None}
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'move_py' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'move_py' build argument 'cmake_target' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'move_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'move_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'move_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'move_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'move_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'move_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'move_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.577s] DEBUG:colcon.colcon_core.verb:Building package 'move_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/angchicken_ros2_ws/build/move_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/angchicken_ros2_ws/install/move_py', 'merge_install': False, 'path': '/home/choi/angchicken_ros2_ws/src/move_py', 'symlink_install': True, 'test_result_base': None}
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.578s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/angchicken_ros2_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/angchicken_ros2_ws/install/my_bot', 'merge_install': False, 'path': '/home/choi/angchicken_ros2_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'pump_track' build argument 'cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'pump_track' build argument 'cmake_target' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'pump_track' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'pump_track' build argument 'cmake_clean_cache' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'pump_track' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'pump_track' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'pump_track' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'pump_track' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'pump_track' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'pump_track' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/angchicken_ros2_ws/build/pump_track', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/angchicken_ros2_ws/install/pump_track', 'merge_install': False, 'path': '/home/choi/angchicken_ros2_ws/src/pump_track', 'symlink_install': True, 'test_result_base': None}
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'text_detection' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'text_detection' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'text_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'text_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'text_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'text_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'text_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'text_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'text_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.582s] DEBUG:colcon.colcon_core.verb:Building package 'text_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/angchicken_ros2_ws/build/text_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/angchicken_ros2_ws/install/text_detection', 'merge_install': False, 'path': '/home/choi/angchicken_ros2_ws/src/text_detection', 'symlink_install': True, 'test_result_base': None}
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'track_test' build argument 'cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'track_test' build argument 'cmake_target' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'track_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'track_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'track_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'track_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'track_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'track_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'track_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'track_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/angchicken_ros2_ws/build/track_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/angchicken_ros2_ws/install/track_test', 'merge_install': False, 'path': '/home/choi/angchicken_ros2_ws/src/track_test', 'symlink_install': True, 'test_result_base': None}
+[0.585s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.591s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/choi/angchicken_ros2_ws/src/color_detection' with build type 'ament_python'
+[0.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('color_detection', 'ament_prefix_path')
+[0.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/hook/ament_prefix_path.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/hook/ament_prefix_path.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/hook/ament_prefix_path.sh'
+[0.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.615s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/choi/angchicken_ros2_ws/src/lane_detection_py' with build type 'ament_python'
+[0.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_detection_py', 'ament_prefix_path')
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/hook/ament_prefix_path.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/hook/ament_prefix_path.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/hook/ament_prefix_path.sh'
+[0.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.635s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/choi/angchicken_ros2_ws/src/lidar_pkg' with build type 'ament_cmake'
+[0.636s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/choi/angchicken_ros2_ws/src/lidar_pkg'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/choi/angchicken_ros2_ws/src/line_following_bot' with build type 'ament_python'
+[0.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_following_bot', 'ament_prefix_path')
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/hook/ament_prefix_path.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/hook/ament_prefix_path.dsv'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/hook/ament_prefix_path.sh'
+[0.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.979s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/choi/angchicken_ros2_ws/src/color_detection'
+[0.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.305s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/choi/angchicken_ros2_ws/src/lane_detection_py'
+[1.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/lidar_pkg -- -j4 -l4
+[1.637s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/choi/angchicken_ros2_ws/src/line_following_bot'
+[1.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/lidar_pkg -- -j4 -l4
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/lidar_pkg
+[1.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_pkg)
+[1.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/lidar_pkg
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg' for CMake module files
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg' for CMake config files
+[1.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_pkg', 'cmake_prefix_path')
+[1.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.ps1'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.dsv'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.sh'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/lib'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/bin'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/lib/pkgconfig/lidar_pkg.pc'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/lib/python3.8/site-packages'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/bin'
+[1.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.ps1'
+[1.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.dsv'
+[1.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.sh'
+[1.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.bash'
+[1.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.zsh'
+[1.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/colcon-core/packages/lidar_pkg)
+[1.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_pkg)
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg' for CMake module files
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg' for CMake config files
+[1.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_pkg', 'cmake_prefix_path')
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.ps1'
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.dsv'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/hook/cmake_prefix_path.sh'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/lib'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/bin'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/lib/pkgconfig/lidar_pkg.pc'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/lib/python3.8/site-packages'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lidar_pkg/bin'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.ps1'
+[1.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.dsv'
+[1.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.sh'
+[1.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.bash'
+[1.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/lidar_pkg/package.zsh'
+[1.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/lidar_pkg/share/colcon-core/packages/lidar_pkg)
+[1.985s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/choi/angchicken_ros2_ws/src/move_py' with build type 'ament_python'
+[1.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_py', 'ament_prefix_path')
+[1.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/hook/ament_prefix_path.ps1'
+[1.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/hook/ament_prefix_path.dsv'
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/hook/ament_prefix_path.sh'
+[1.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.334s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/choi/angchicken_ros2_ws/src/move_py'
+[2.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/line_following_bot': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/line_following_bot/build --no-deps install_data
+[2.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/lane_detection_py': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/lane_detection_py/build --no-deps install_data
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/color_detection': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/color_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/color_detection/build --no-deps install_data
+[2.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/move_py': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/move_py/prefix_override:/home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/move_py/build --no-deps install_data
+[3.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_following_bot', 'pythonpath_develop')
+[3.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/line_following_bot' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/line_following_bot/build --no-deps install_data
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/line_following_bot/share/line_following_bot/hook/pythonpath_develop.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/build/line_following_bot/share/line_following_bot/hook/pythonpath_develop.dsv'
+[3.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/line_following_bot/share/line_following_bot/hook/pythonpath_develop.sh'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/line_following_bot' for CMake module files
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/line_following_bot' for CMake config files
+[3.040s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/line_following_bot/lib'
+[3.040s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/line_following_bot/bin'
+[3.040s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/pkgconfig/line_following_bot.pc'
+[3.040s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages'
+[3.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_following_bot', 'pythonpath')
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/hook/pythonpath.ps1'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/hook/pythonpath.dsv'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/hook/pythonpath.sh'
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/line_following_bot/bin'
+[3.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_following_bot)
+[3.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/package.ps1'
+[3.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/package.dsv'
+[3.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/package.sh'
+[3.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/package.bash'
+[3.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/line_following_bot/share/line_following_bot/package.zsh'
+[3.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/line_following_bot/share/colcon-core/packages/line_following_bot)
+[3.055s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/choi/angchicken_ros2_ws/src/my_bot' with build type 'ament_cmake'
+[3.056s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/choi/angchicken_ros2_ws/src/my_bot'
+[3.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('color_detection', 'pythonpath_develop')
+[3.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/color_detection' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/color_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/color_detection/build --no-deps install_data
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/color_detection/share/color_detection/hook/pythonpath_develop.ps1'
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/build/color_detection/share/color_detection/hook/pythonpath_develop.dsv'
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/color_detection/share/color_detection/hook/pythonpath_develop.sh'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/color_detection' for CMake module files
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/color_detection' for CMake config files
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/color_detection/lib'
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/color_detection/bin'
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/color_detection/lib/pkgconfig/color_detection.pc'
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages'
+[3.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('color_detection', 'pythonpath')
+[3.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/hook/pythonpath.ps1'
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/hook/pythonpath.dsv'
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/hook/pythonpath.sh'
+[3.087s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/color_detection/bin'
+[3.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(color_detection)
+[3.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/package.ps1'
+[3.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/package.dsv'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/package.sh'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/package.bash'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/color_detection/share/color_detection/package.zsh'
+[3.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/color_detection/share/colcon-core/packages/color_detection)
+[3.094s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/choi/angchicken_ros2_ws/src/pump_track' with build type 'ament_python'
+[3.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('pump_track', 'ament_prefix_path')
+[3.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/hook/ament_prefix_path.ps1'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/hook/ament_prefix_path.dsv'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/hook/ament_prefix_path.sh'
+[3.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_detection_py', 'pythonpath_develop')
+[3.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/lane_detection_py/share/lane_detection_py/hook/pythonpath_develop.ps1'
+[3.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/lane_detection_py' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/lane_detection_py/build --no-deps install_data
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/build/lane_detection_py/share/lane_detection_py/hook/pythonpath_develop.dsv'
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/lane_detection_py/share/lane_detection_py/hook/pythonpath_develop.sh'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lane_detection_py' for CMake module files
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lane_detection_py' for CMake config files
+[3.126s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib'
+[3.126s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lane_detection_py/bin'
+[3.126s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/pkgconfig/lane_detection_py.pc'
+[3.126s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages'
+[3.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_detection_py', 'pythonpath')
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/hook/pythonpath.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/hook/pythonpath.dsv'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/hook/pythonpath.sh'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/lane_detection_py/bin'
+[3.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lane_detection_py)
+[3.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/package.ps1'
+[3.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/package.dsv'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/package.sh'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/package.bash'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/lane_detection_py/package.zsh'
+[3.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/lane_detection_py/share/colcon-core/packages/lane_detection_py)
+[3.137s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/choi/angchicken_ros2_ws/src/text_detection' with build type 'ament_python'
+[3.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('text_detection', 'ament_prefix_path')
+[3.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/hook/ament_prefix_path.ps1'
+[3.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/hook/ament_prefix_path.dsv'
+[3.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/hook/ament_prefix_path.sh'
+[3.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/my_bot -- -j4 -l4
+[3.478s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/choi/angchicken_ros2_ws/src/pump_track'
+[3.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.793s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/choi/angchicken_ros2_ws/src/text_detection'
+[3.796s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/my_bot -- -j4 -l4
+[3.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_py', 'pythonpath_develop')
+[3.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/move_py/share/move_py/hook/pythonpath_develop.ps1'
+[3.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/move_py' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/move_py/prefix_override:/home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/move_py/build --no-deps install_data
+[3.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/build/move_py/share/move_py/hook/pythonpath_develop.dsv'
+[3.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/move_py/share/move_py/hook/pythonpath_develop.sh'
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/move_py' for CMake module files
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/move_py' for CMake config files
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/move_py/lib'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/move_py/bin'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/move_py/lib/pkgconfig/move_py.pc'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages'
+[3.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_py', 'pythonpath')
+[3.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/hook/pythonpath.ps1'
+[3.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/hook/pythonpath.dsv'
+[3.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/hook/pythonpath.sh'
+[3.831s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/move_py/bin'
+[3.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_py)
+[3.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/package.ps1'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/package.dsv'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/package.sh'
+[3.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/package.bash'
+[3.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/move_py/share/move_py/package.zsh'
+[3.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/move_py/share/colcon-core/packages/move_py)
+[3.842s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/choi/angchicken_ros2_ws/src/track_test' with build type 'ament_cmake'
+[3.843s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/choi/angchicken_ros2_ws/src/track_test'
+[3.847s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/track_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/track_test -- -j4 -l4
+[3.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/my_bot
+[3.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/track_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/track_test -- -j4 -l4
+[3.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[3.982s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot' for CMake module files
+[3.982s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot' for CMake config files
+[3.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[3.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[3.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[3.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot/bin'
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot/lib/python3.8/site-packages'
+[3.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/my_bot
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot/bin'
+[3.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.ps1'
+[3.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.dsv'
+[3.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.sh'
+[3.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.bash'
+[3.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.zsh'
+[3.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[4.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/track_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/track_test
+[4.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[4.073s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot' for CMake module files
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot' for CMake config files
+[4.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[4.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[4.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[4.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot/bin'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot/lib/python3.8/site-packages'
+[4.087s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/my_bot/bin'
+[4.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.ps1'
+[4.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.dsv'
+[4.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.sh'
+[4.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.bash'
+[4.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/my_bot/share/my_bot/package.zsh'
+[4.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[4.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(track_test)
+[4.133s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test' for CMake module files
+[4.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/track_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/my_bot_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/track_test
+[4.134s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test' for CMake config files
+[4.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('track_test', 'cmake_prefix_path')
+[4.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/hook/cmake_prefix_path.ps1'
+[4.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/hook/cmake_prefix_path.dsv'
+[4.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/hook/cmake_prefix_path.sh'
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test/bin'
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test/lib/pkgconfig/track_test.pc'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test/lib/python3.8/site-packages'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test/bin'
+[4.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.ps1'
+[4.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.dsv'
+[4.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.sh'
+[4.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.bash'
+[4.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.zsh'
+[4.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/track_test/share/colcon-core/packages/track_test)
+[4.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(track_test)
+[4.221s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test' for CMake module files
+[4.221s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test' for CMake config files
+[4.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('track_test', 'cmake_prefix_path')
+[4.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/hook/cmake_prefix_path.ps1'
+[4.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/hook/cmake_prefix_path.dsv'
+[4.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/hook/cmake_prefix_path.sh'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test/bin'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test/lib/pkgconfig/track_test.pc'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test/lib/python3.8/site-packages'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/track_test/bin'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.ps1'
+[4.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.dsv'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.sh'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.bash'
+[4.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/track_test/share/track_test/package.zsh'
+[4.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/track_test/share/colcon-core/packages/track_test)
+[4.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/pump_track': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build --no-deps install_data
+[4.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/angchicken_ros2_ws/build/text_detection': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/text_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/text_detection/build --no-deps install_data
+[4.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('pump_track', 'pythonpath_develop')
+[4.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/pump_track/share/pump_track/hook/pythonpath_develop.ps1'
+[4.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/pump_track' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build --no-deps install_data
+[4.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/build/pump_track/share/pump_track/hook/pythonpath_develop.dsv'
+[4.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/pump_track/share/pump_track/hook/pythonpath_develop.sh'
+[4.954s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/pump_track' for CMake module files
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/pump_track' for CMake config files
+[4.956s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/pump_track/lib'
+[4.956s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/pump_track/bin'
+[4.956s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/pump_track/lib/pkgconfig/pump_track.pc'
+[4.957s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages'
+[4.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('pump_track', 'pythonpath')
+[4.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/hook/pythonpath.ps1'
+[4.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/hook/pythonpath.dsv'
+[4.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/hook/pythonpath.sh'
+[4.961s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/pump_track/bin'
+[4.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pump_track)
+[4.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/package.ps1'
+[4.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/package.dsv'
+[4.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/package.sh'
+[4.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/package.bash'
+[4.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/package.zsh'
+[4.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/pump_track/share/colcon-core/packages/pump_track)
+[4.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('text_detection', 'pythonpath_develop')
+[4.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/text_detection/share/text_detection/hook/pythonpath_develop.ps1'
+[4.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/angchicken_ros2_ws/build/text_detection' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/text_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/text_detection/build --no-deps install_data
+[4.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/build/text_detection/share/text_detection/hook/pythonpath_develop.dsv'
+[4.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/build/text_detection/share/text_detection/hook/pythonpath_develop.sh'
+[4.993s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/text_detection' for CMake module files
+[4.994s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/text_detection' for CMake config files
+[4.994s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/text_detection/lib'
+[4.994s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/text_detection/bin'
+[4.995s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/text_detection/lib/pkgconfig/text_detection.pc'
+[4.995s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages'
+[4.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('text_detection', 'pythonpath')
+[4.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/hook/pythonpath.ps1'
+[4.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/hook/pythonpath.dsv'
+[4.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/hook/pythonpath.sh'
+[4.999s] Level 1:colcon.colcon_core.environment:checking '/home/choi/angchicken_ros2_ws/install/text_detection/bin'
+[4.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(text_detection)
+[5.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/package.ps1'
+[5.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/package.dsv'
+[5.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/package.sh'
+[5.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/package.bash'
+[5.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/angchicken_ros2_ws/install/text_detection/share/text_detection/package.zsh'
+[5.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/angchicken_ros2_ws/install/text_detection/share/colcon-core/packages/text_detection)
+[5.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.005s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.012s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.025s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.028s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/choi/angchicken_ros2_ws/install/local_setup.ps1'
+[5.029s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/choi/angchicken_ros2_ws/install/_local_setup_util_ps1.py'
+[5.030s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/choi/angchicken_ros2_ws/install/setup.ps1'
+[5.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/choi/angchicken_ros2_ws/install/local_setup.sh'
+[5.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/choi/angchicken_ros2_ws/install/_local_setup_util_sh.py'
+[5.034s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/choi/angchicken_ros2_ws/install/setup.sh'
+[5.037s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/choi/angchicken_ros2_ws/install/local_setup.bash'
+[5.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/choi/angchicken_ros2_ws/install/setup.bash'
+[5.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/choi/angchicken_ros2_ws/install/local_setup.zsh'
+[5.041s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/choi/angchicken_ros2_ws/install/setup.zsh'

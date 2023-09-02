@@ -33,4 +33,17 @@ def generate_launch_description():
             cmd=['ros2', 'run', 'image_view', 'image_view', 'image:=/hist_image'],
             output='screen',
         ),
+
+        ExecuteProcess(
+            cmd=['ros2', 'run', 'pump_track', 'army_detect'],
+            output='screen',
+        ),
+
+        ExecuteProcess(
+            cmd=['ros2', 'run', 'pump_track', 'usb_cam'],
+            output='screen',
+        ),
+
+
+
     ])

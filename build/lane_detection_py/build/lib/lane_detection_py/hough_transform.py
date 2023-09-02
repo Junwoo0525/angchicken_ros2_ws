@@ -23,8 +23,8 @@ while True:
     hsv_image = cv2.cvtColor(color_image, cv2.COLOR_BGR2HSV)
 
     # Define color range for lane
-    lower_lane_color = np.array([20, 100, 100])  # Modify as needed
-    upper_lane_color = np.array([40, 255, 255])  # Modify as needed
+    lower_lane_color = np.array([121, 0, 100])  # Modify as needed
+    upper_lane_color = np.array([179, 255, 255])  # Modify as needed
 
     # Create a mask to identify lane color
     lane_mask = cv2.inRange(hsv_image, lower_lane_color, upper_lane_color)

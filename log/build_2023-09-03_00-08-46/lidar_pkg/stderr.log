@@ -1,0 +1,22 @@
+Fatal Python error: init_import_size: Failed to import the site module
+Python runtime state: initialized
+Traceback (most recent call last):
+  File "/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages/site.py", line 75, in <module>
+    __boot()
+  File "/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages/site.py", line 26, in __boot
+    import imp  # Avoid import loop in Python 3
+  File "/usr/lib/python3.8/imp.py", line 23, in <module>
+    from importlib import util
+  File "/usr/lib/python3.8/importlib/util.py", line 14, in <module>
+    from contextlib import contextmanager
+  File "/usr/lib/python3.8/contextlib.py", line 5, in <module>
+    from collections import deque
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 914, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1407, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1379, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1534, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 123, in _path_join
+  File "<frozen importlib._bootstrap_external>", line 123, in <listcomp>
+KeyboardInterrupt

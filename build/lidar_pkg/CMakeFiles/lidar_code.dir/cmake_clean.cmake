@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lidar_code.dir/src/lidar_code.cpp.o"
+  "CMakeFiles/lidar_code.dir/src/lidar_code.cpp.o.d"
   "lidar_code"
   "lidar_code.pdb"
 )

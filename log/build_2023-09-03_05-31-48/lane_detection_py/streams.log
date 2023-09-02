@@ -1,0 +1,19 @@
+[1.620s] Invoking command in '/home/choi/angchicken_ros2_ws/build/lane_detection_py': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/lane_detection_py/build --no-deps install_data
+[2.002s] running develop
+[2.151s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:368: UserWarning: Unbuilt egg for line-following-bot 0.0.0 (/home/choi/angchicken_ros2_ws/build/line_following_bot)
+[2.152s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.221s] running egg_info
+[2.221s] writing lane_detection_py.egg-info/PKG-INFO
+[2.221s] writing dependency_links to lane_detection_py.egg-info/dependency_links.txt
+[2.222s] writing entry points to lane_detection_py.egg-info/entry_points.txt
+[2.222s] writing requirements to lane_detection_py.egg-info/requires.txt
+[2.222s] writing top-level names to lane_detection_py.egg-info/top_level.txt
+[2.255s] reading manifest file 'lane_detection_py.egg-info/SOURCES.txt'
+[2.256s] writing manifest file 'lane_detection_py.egg-info/SOURCES.txt'
+[2.298s] running build_ext
+[2.298s] Creating /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages/lane-detection-py.egg-link (link to .)
+[2.298s] Installing lane_detection_node script to /home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/lane_detection_py
+[2.298s] 
+[2.298s] Installed /home/choi/angchicken_ros2_ws/build/lane_detection_py
+[2.298s] running install_data
+[2.667s] Invoked command in '/home/choi/angchicken_ros2_ws/build/lane_detection_py' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/lane_detection_py/prefix_override:/home/choi/angchicken_ros2_ws/install/lane_detection_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/lane_detection_py/build --no-deps install_data

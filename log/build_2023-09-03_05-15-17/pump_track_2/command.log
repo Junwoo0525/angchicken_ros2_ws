@@ -1,0 +1,1 @@
+Invoking command in '/home/choi/angchicken_ros2_ws/build/pump_track_2': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track_2/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track_2/build --no-deps install_data

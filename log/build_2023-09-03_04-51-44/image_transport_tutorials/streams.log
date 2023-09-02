@@ -1,0 +1,104 @@
+[0.377s] Invoking command in '/home/choi/angchicken_ros2_ws/build/image_transport_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/angchicken_ros2_ws/install/pump_track_2:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/pump_track:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/image_transport_tutorials -- -j4 -l4
+[0.721s] [  7%] Built target image_transport_tutorials__rosidl_generator_c
+[0.723s] [ 12%] Built target my_publisher
+[0.723s] [ 17%] Built target my_subscriber
+[0.723s] [ 19%] Built target image_transport_tutorials__cpp
+[0.723s] [ 24%] Built target publisher_from_video
+[0.723s] [ 31%] Built target image_transport_tutorials__rosidl_typesupport_introspection_c
+[0.723s] [ 39%] Built target image_transport_tutorials__rosidl_typesupport_c
+[0.724s] [ 46%] Built target image_transport_tutorials__rosidl_typesupport_cpp
+[0.724s] [ 53%] Built target image_transport_tutorials__rosidl_typesupport_fastrtps_cpp
+[0.724s] [ 60%] Built target image_transport_tutorials__rosidl_typesupport_introspection_cpp
+[0.724s] [ 68%] Built target image_transport_tutorials__rosidl_typesupport_fastrtps_c
+[0.724s] [ 68%] Built target image_transport_tutorials
+[0.724s] [ 78%] Built target resized_plugins
+[0.724s] [ 80%] Built target image_transport_tutorials__py
+[0.724s] [ 85%] Built target image_transport_tutorials__python
+[0.724s] [ 90%] Built target image_transport_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[0.724s] [ 95%] Built target image_transport_tutorials__rosidl_typesupport_introspection_c__pyext
+[0.724s] [100%] Built target image_transport_tutorials__rosidl_typesupport_c__pyext
+[1.036s] Invoked command in '/home/choi/angchicken_ros2_ws/build/image_transport_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/angchicken_ros2_ws/install/pump_track_2:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/pump_track:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/angchicken_ros2_ws/build/image_transport_tutorials -- -j4 -l4
+[1.224s] Invoking command in '/home/choi/angchicken_ros2_ws/build/image_transport_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/angchicken_ros2_ws/install/pump_track_2:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/pump_track:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/image_transport_tutorials
+[1.278s] -- Install configuration: ""
+[1.278s] -- Execute custom install script
+[1.279s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/ament_index/resource_index/rosidl_interfaces/image_transport_tutorials
+[1.279s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__functions.h
+[1.279s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__struct.h
+[1.279s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__type_support.h
+[1.279s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/resized_image.h
+[1.280s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/rosidl_generator_c__visibility_control.h
+[1.280s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/library_path.sh
+[1.280s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/library_path.dsv
+[1.280s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_fastrtps_c.h
+[1.281s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.281s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_fastrtps_c.so
+[1.281s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_fastrtps_cpp.hpp
+[1.281s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.282s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_fastrtps_cpp.so
+[1.282s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_introspection_c.h
+[1.282s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.283s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__builder.hpp
+[1.283s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__struct.hpp
+[1.283s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__traits.hpp
+[1.283s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__type_support.hpp
+[1.283s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/resized_image.hpp
+[1.283s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.284s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_introspection_cpp.hpp
+[1.284s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/pythonpath.sh
+[1.284s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/pythonpath.dsv
+[1.284s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/python3.8/site-packages/image_transport_tutorials/__init__.py
+[1.285s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/python3.8/site-packages/image_transport_tutorials/msg/__init__.py
+[1.285s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/python3.8/site-packages/image_transport_tutorials/msg/_resized_image.py
+[1.285s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/python3.8/site-packages/image_transport_tutorials/image_transport_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.285s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/python3.8/site-packages/image_transport_tutorials/image_transport_tutorials_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.286s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/python3.8/site-packages/image_transport_tutorials/image_transport_tutorials_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.286s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__python.so
+[1.286s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/msg/ResizedImage.idl
+[1.286s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/msg/ResizedImage.msg
+[1.287s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials//resized_plugins.xml
+[1.287s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/image_transport_tutorials/my_publisher
+[1.287s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/image_transport_tutorials/my_subscriber
+[1.287s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials//libresized_plugins.so
+[1.287s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/image_transport_tutorials/publisher_from_video
+[1.288s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/resized_publisher.hpp
+[1.288s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/include/image_transport_tutorials/resized_subscriber.hpp
+[1.288s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/ament_index/resource_index/package_run_dependencies/image_transport_tutorials
+[1.288s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/ament_index/resource_index/parent_prefix_path/image_transport_tutorials
+[1.289s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/ament_prefix_path.sh
+[1.289s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/ament_prefix_path.dsv
+[1.289s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/path.sh
+[1.289s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/path.dsv
+[1.289s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/local_setup.bash
+[1.289s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/local_setup.sh
+[1.290s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/local_setup.zsh
+[1.290s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/local_setup.dsv
+[1.290s] -- Symlinking: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/package.dsv
+[1.295s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/ament_index/resource_index/packages/image_transport_tutorials
+[1.295s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/ament_index/resource_index/image_transport_tutorials__pluginlib__plugin/image_transport_tutorials
+[1.296s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/rosidl_cmake-extras.cmake
+[1.296s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.296s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/ament_cmake_export_libraries-extras.cmake
+[1.296s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/ament_cmake_export_targets-extras.cmake
+[1.296s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.296s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.297s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.297s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorialsConfig.cmake
+[1.297s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorialsConfig-version.cmake
+[1.297s] -- Up-to-date symlink: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/package.xml
+[1.297s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_generator_c.so
+[1.298s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_introspection_c.so
+[1.298s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_c.so
+[1.299s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_introspection_cpp.so
+[1.299s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_cpp.so
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_generator_cExport.cmake
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_generator_cExport-noconfig.cmake
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_introspection_cExport.cmake
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_cExport.cmake
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_cExport-noconfig.cmake
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_generator_cppExport.cmake
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_introspection_cppExport.cmake
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.365s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_cppExport.cmake
+[1.366s] -- Up-to-date: /home/choi/angchicken_ros2_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_cppExport-noconfig.cmake
+[1.371s] Invoked command in '/home/choi/angchicken_ros2_ws/build/image_transport_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/angchicken_ros2_ws/install/pump_track_2:/home/choi/angchicken_ros2_ws/install/text_detection:/home/choi/angchicken_ros2_ws/install/pump_track:/home/choi/angchicken_ros2_ws/install/move_py:/home/choi/angchicken_ros2_ws/install/line_following_bot:/home/choi/angchicken_ros2_ws/install/lane_detection_py:/home/choi/angchicken_ros2_ws/install/lane_detection_pkg:/home/choi/angchicken_ros2_ws/install/color_detection:/home/choi/my_bot_ws/install/two_wheel_demo:/home/choi/my_bot_ws/install/ros2_control_test_nodes:/home/choi/my_bot_ws/install/py_pubsub:/home/choi/my_bot_ws/install/pump_track:/home/choi/my_bot_ws/install/odrive_driver:/home/choi/my_bot_ws/install/joy_tester:/home/choi/my_bot_ws/install/diffbot_control_node:/home/choi/my_bot_ws/install/cv_basics:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/angchicken_ros2_ws/build/image_transport_tutorials

@@ -1,0 +1,24 @@
+[1.640s] Invoking command in '/home/choi/angchicken_ros2_ws/build/color_detection': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/color_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/color_detection/build
+[2.020s] running develop
+[2.259s] Invoked command in '/home/choi/angchicken_ros2_ws/build/color_detection' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/color_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/color_detection/build
+[2.260s] Invoking command in '/home/choi/angchicken_ros2_ws/src/color_detection': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/color_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/color_detection build --build-base /home/choi/angchicken_ros2_ws/build/color_detection/build install --record /home/choi/angchicken_ros2_ws/build/color_detection/install.log --install-scripts $base/lib/color_detection --single-version-externally-managed
+[2.575s] running egg_info
+[2.576s] writing ../../build/color_detection/color_detection.egg-info/PKG-INFO
+[2.576s] writing dependency_links to ../../build/color_detection/color_detection.egg-info/dependency_links.txt
+[2.577s] writing entry points to ../../build/color_detection/color_detection.egg-info/entry_points.txt
+[2.577s] writing requirements to ../../build/color_detection/color_detection.egg-info/requires.txt
+[2.577s] writing top-level names to ../../build/color_detection/color_detection.egg-info/top_level.txt
+[2.611s] reading manifest file '../../build/color_detection/color_detection.egg-info/SOURCES.txt'
+[2.612s] writing manifest file '../../build/color_detection/color_detection.egg-info/SOURCES.txt'
+[2.613s] running build
+[2.613s] running build_py
+[2.613s] running install
+[2.614s] running install_lib
+[2.615s] running install_data
+[2.616s] running install_egg_info
+[2.621s] removing '/home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages/color_detection-0.0.0-py3.8.egg-info' (and everything under it)
+[2.621s] Copying ../../build/color_detection/color_detection.egg-info to /home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages/color_detection-0.0.0-py3.8.egg-info
+[2.622s] running install_scripts
+[2.638s] Installing color_detection_node script to /home/choi/angchicken_ros2_ws/install/color_detection/lib/color_detection
+[2.638s] writing list of installed files to '/home/choi/angchicken_ros2_ws/build/color_detection/install.log'
+[2.677s] Invoked command in '/home/choi/angchicken_ros2_ws/src/color_detection' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/color_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/color_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/color_detection build --build-base /home/choi/angchicken_ros2_ws/build/color_detection/build install --record /home/choi/angchicken_ros2_ws/build/color_detection/install.log --install-scripts $base/lib/color_detection --single-version-externally-managed

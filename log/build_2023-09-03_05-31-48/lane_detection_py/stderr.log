@@ -1,0 +1,2 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:368: UserWarning: Unbuilt egg for line-following-bot 0.0.0 (/home/choi/angchicken_ros2_ws/build/line_following_bot)
+  self.local_index = Environment(self.shadow_path + sys.path)

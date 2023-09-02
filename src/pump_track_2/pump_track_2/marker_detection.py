@@ -1,131 +1,131 @@
-import numpy as np
-import cv2
-import cv2.aruco as aruco
-import pyrealsense2 as rs
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from sensor_msgs.msg import Image
+from cv_bridge import CvBridge
+import cv2
+import numpy as np
+import os
+import time
+import cv2.aruco as aruco
 
-class MarkerDetector(Node):
-
-
+class MarkerDetectionNode(Node):
     def __init__(self):
-        super().__init__('marker_detector')
-        self.marker_pub = self.create_publisher(String, 'marker_topic',10)
+        super().__init__('marker_detection_node')
+        self.image_pub = self.create_publisher(Image, 'marker_topic', 10)
+        self.image_sub = self.create_subscription(
+            Image, 'usb_camera/image', self.image_callback, 10)
+        self.bridge = CvBridge()
 
-        # 마커 생성하기
-        self.aruco_dict = aruco.custom_dictionary(0, 7, 1)
-        self.aruco_dict.bytesList = np.empty(shape = (8, 7, 4), dtype = np.uint8)
+        self.aruco_dict = aruco.custom_dictionary(0, 5, 1)
+        self.aruco_dict.bytesList = np.empty(shape=(8, 4, 4), dtype=np.uint8)
+        self.setup_aruco_dictionary()
 
-        # 0=K 1=O 2=R 3=E 4=A 5=M 6=Y 7=v
-        mybits = np.array([[1,1,1,1,1,1,1],[1,0,1,1,1,0,1],[1,0,1,1,0,1,1],[1,0,0,0,1,1,1],[1,0,1,1,0,1,1],[1,0,1,1,1,0,1],[1,1,1,1,1,1,1]], dtype = np.uint8)
-        self.aruco_dict.bytesList[0] = aruco.Dictionary_getByteListFromBits(mybits)
-        mybits = np.array([[1,1,1,1,1,1,1],[1,1,0,0,0,1,1],[1,0,1,1,1,0,1],[1,0,1,1,1,0,1],[1,0,1,1,1,0,1],[1,1,0,0,0,1,1],[1,1,1,1,1,1,1]], dtype = np.uint8)
-        self.aruco_dict.bytesList[1] = aruco.Dictionary_getByteListFromBits(mybits)
-        mybits = np.array([[1,1,1,1,1,1,1],[1,0,0,0,0,1,1],[1,0,1,1,1,0,1],[1,0,0,0,0,1,1],[1,0,1,1,0,1,1],[1,0,1,1,1,0,1],[1,1,1,1,1,1,1]], dtype = np.uint8)
-        self.aruco_dict.bytesList[2] = aruco.Dictionary_getByteListFromBits(mybits)
-        mybits = np.array([[1,1,1,1,1,1,1],[1,0,0,0,0,0,1],[1,0,1,1,1,1,1],[1,0,0,0,0,1,1],[1,0,1,1,1,1,1],[1,0,0,0,0,0,1],[1,1,1,1,1,1,1]], dtype = np.uint8)
-        self.aruco_dict.bytesList[3] = aruco.Dictionary_getByteListFromBits(mybits)
-        mybits = np.array([[1,1,1,1,1,1,1],[1,1,1,0,1,1,1],[1,1,0,1,0,1,1],[1,0,0,0,0,0,1],[1,0,1,1,1,0,1],[1,0,1,1,1,0,1],[1,1,1,1,1,1,1]], dtype = np.uint8)
-        self.aruco_dict.bytesList[4] = aruco.Dictionary_getByteListFromBits(mybits)
-        mybits = np.array([[1,1,1,1,1,1,1],[1,0,1,1,1,0,1],[1,0,0,1,0,0,1],[1,0,1,0,1,0,1],[1,0,1,1,1,0,1],[1,0,1,1,1,0,1],[1,1,1,1,1,1,1]], dtype = np.uint8)
-        self.aruco_dict.bytesList[5] = aruco.Dictionary_getByteListFromBits(mybits)
-        mybits = np.array([[1,1,1,1,1,1,1],[1,0,1,1,1,0,1],[1,1,0,1,0,1,1],[1,1,1,0,1,1,1],[1,1,1,0,1,1,1],[1,1,1,0,1,1,1],[1,1,1,1,1,1,1]], dtype = np.uint8)
-        self.aruco_dict.bytesList[6] = aruco.Dictionary_getByteListFromBits(mybits)
-        mybits = np.array([[0,0,0,0,0,0,0],[0,0,1,0,1,0,0],[0,1,1,1,1,1,0],[0,1,1,1,1,1,0],[0,0,1,1,1,0,0],[0,0,0,1,0,0,0],[0,0,0,0,0,0,0]], dtype = np.uint8)
-        self.aruco_dict.bytesList[7] = aruco.Dictionary_getByteListFromBits(mybits)
+        self.alphabet = ['K', 'O', 'R', 'E', 'A', 'M', 'Y', 'v']
 
-        for i in range(len(self.aruco_dict.bytesList)):
-            img_path = "/home/choi/angchicken_ros2_ws/src/pump_track_2/pump_track_2/custom_m/" + str(i) + ".png"
-            cv2.imwrite(img_path, aruco.drawMarker(self.aruco_dict, i, 128))
+        self.font = cv2.FONT_HERSHEY_SIMPLEX
+        self.f_scale = 1.0
+        self.f_color = (0, 255, 0)
+        self.f_thick = 4
 
-        self.pipeline = rs.pipeline() #add
-        self.config = rs.config() #add
+        self.marker_detected = False
+        self.save_interval = 1  # Image saving interval in seconds
+        self.last_save_time = time.time()  # Initialize last_save_time
+        self.save_count = 0
 
-        pipeline_wrapper = rs.pipeline_wrapper(self.pipeline) #add
-        pipeline_profile = self.config.resolve(pipeline_wrapper) #add
-        device = pipeline_profile.get_device()
-        device_product_line = str(device.get_info(rs.camera_info.product_line))
+    # Rest of the code remains unchanged
 
-        found_rgb = False
 
-        for s in device.sensors:
-            if s.get_info(rs.camera_info.name) == 'RGB Camera':
-                found_rgb = True
-                break
-        if not found_rgb:
-            print("English.")
-            exit(0)
+    def setup_aruco_dictionary(self):
+        mybits_list = [
+            [[1,0,0,0,1],[1,0,0,1,0],[1,1,1,0,0],[1,0,0,1,0],[1,0,0,0,1]],
+            [[0,1,1,1,0],[1,0,0,0,1],[1,0,0,0,1],[1,0,0,0,1],[0,1,1,1,0]],
+            [[1,1,1,1,0],[1,0,0,0,1],[1,1,1,1,0],[1,0,0,1,0],[1,0,0,0,1]],
+            [[1,1,1,1,1],[1,0,0,0,0],[1,1,1,1,0],[1,0,0,0,0],[1,1,1,1,1]],
+            [[0,0,1,0,0],[0,1,0,1,0],[1,1,1,1,1],[1,0,0,0,1],[1,0,0,0,1]],
+            [[1,0,0,0,1],[1,1,0,1,1],[1,0,1,0,1],[1,0,0,0,1],[1,0,0,0,1]],
+            [[1,0,0,0,1],[0,1,0,1,0],[0,0,1,0,0],[0,0,1,0,0],[0,0,1,0,0]],
+            [[0,1,0,1,0],[1,1,1,1,1],[1,1,1,1,1],[0,1,1,1,0],[0,0,1,0,0]]
+        ]
 
-        self.config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 30) #add
-        self.config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
-        self.m_detector = None #add
+        for i, mybits in enumerate(mybits_list):
+            self.aruco_dict.bytesList[i] = aruco.Dictionary_getByteListFromBits(np.array(mybits, dtype=np.uint8))
 
-    def m_detect(self):
-        self.pipeline.start(self.config)
+    def image_callback(self, msg):
+        try:
+            cv_image = self.bridge.imgmsg_to_cv2(msg, 'bgr8')
+        except CvBridgeError as e:
+            self.get_logger().error(str(e))
+            return
 
-        dep_sensor = self.pipeline.get_active_profile().get_device().first_depth_sensor() #add
-        dep_scale = dep_sensor.get_depth_scale()
-        print("Depth scale:", dep_scale)
+        corners, ids, _ = aruco.detectMarkers(cv_image, self.aruco_dict)
+        marker_frame = cv_image.copy()
 
-        while True:
-            fs = self.pipeline.wait_for_frames() #add
-            depth_f = fs.get_depth_frame()
-            color_f = fs.get_color_frame()
+        if ids is not None:
+            self.marker_detected = True
+        else:
+            self.marker_detected = False
 
-            if not depth_f or not color_f:
-                continue
+        if self.marker_detected:
+            for i, m_id in enumerate(ids):
+                m_corners = corners[i][0]
 
-            depth_i = np.asarray(depth_f.get_data())
-            color_i = np.asarray(color_f.get_data())
+                m_wid = np.linalg.norm(m_corners[0] - m_corners[1])
+                m_hei = np.linalg.norm(m_corners[1] - m_corners[2])
 
-            hsv_f = cv2.cvtColor(color_i, cv2.COLOR_BGR2HSV)
-            lower_blue = np.array([90, 50, 50])
-            upper_blue = np.array([130, 255, 255])
-            blue_mask = cv2.inRange(hsv_f, lower_blue, upper_blue)
+                if m_wid > 40 and m_hei > 40:
+                    marker_frame = aruco.drawDetectedMarkers(marker_frame, corners, ids)
 
-            unsharp_mask = cv2.addWeighted(blue_mask, 3.5, blue_mask, -0.5, 0)
-            corners, ids, rejectedImgPoints = aruco.detectMarkers(unsharp_mask, self.aruco_dict)
+                    fir_corner = m_corners[0]
+                    sec_corner = m_corners[1]
+                    fou_corner = m_corners[3]
 
-            if ids is not None:
-                valid_markers = []
+                    if fir_corner[1] > sec_corner[1] + 30:
+                        rota = "-90"
+                    elif fou_corner[0] + 30 < fir_corner[0]:
+                        rota = "90"
+                    else:
+                        rota = "0"
 
-                for i in range(len(ids)):
-                    m_size = np.mean(np.linalg.norm(corners[i][0] - corners[i][0][0], axis=1))
+                    m_index = int(m_id[0])
+                    if m_index == 0 and rota == "-90":
+                        letter = 'Y'
+                    elif 0 <= m_index < len(self.alphabet):
+                        letter = self.alphabet[m_index]
+                    else:
+                        letter = ""
 
-                    if m_size >= 50.0:
-                        valid_markers.append(i)
+                    if letter:
+                        txt_size = cv2.getTextSize(letter, self.font, self.f_scale, self.f_thick)[0]
 
-                if valid_markers:
-                    f_m = aruco.drawDetectedMarkers(color_i.copy(), [corners[i] for i in valid_markers], None)
-                    self.m_pub() #add
-                else:
-                    f_m = color_i.copy()
+                        if rota == "-90":
+                            text_x = int(((fir_corner[0] + sec_corner[0]) / 2 - txt_size[0] / 2) + 40)
+                            text_y = int(((fir_corner[1] + sec_corner[1]) / 2 + txt_size[1] / 2) - 20)
+                        elif rota == "90":
+                            text_x = int((fir_corner[0] + fou_corner[0]) / 2 - txt_size[0] / 2)
+                            text_y = int(((fir_corner[1] + fou_corner[1]) / 2 + txt_size[1] / 2) + 20)
+                        else:
+                            text_x = int((fir_corner[0] + sec_corner[0]) / 2 - txt_size[0] / 2)
+                            text_y = int(((fir_corner[1] + sec_corner[1]) / 2 + txt_size[1] / 2) + 20)
 
-            else:
-                f_m = color_i.copy()
+                        cv2.putText(marker_frame, letter, (text_x, text_y), self.font, self.f_scale, self.f_color, self.f_thick)
 
-            cv2.imshow('frame', f_m)
+        cv2.imshow('frame', marker_frame)
+        cur_time = time.time()
 
-            if cv2.waitKey(1) & 0xFF == ord('q'):
-                break
+        if self.marker_detected and cur_time - self.last_save_time >= self.save_interval:
+            img_path = os.path.join("/home/choi/angchicken_ros2_ws/src/pump_track_2/pump_track_2/custum_m/", f"{self.save_count}.jpg")
+            cv2.imwrite(img_path, marker_frame)
+            self.save_count += 1
+            self.last_save_time = cur_time
 
-    def m_pub(self):
-        msg = String()
-        msg.data = 'M.D'
-        self.marker_pub.publish(msg)
-        self.get_logger().info('Pub: %s' % msg.data)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            cv2.destroyAllWindows()
 
 def main(args=None):
     rclpy.init(args=args)
-    m_detector = MarkerDetector()
-    try:
-        m_detector.m_detect()
-    except KeyboardInterrupt:
-        if m_detector.m_detector:
-            m_detector.pipeline.stop()
-            m_detector.destroy_node()
-        rclpy.shutdown()
+    node = MarkerDetectionNode()
+    rclpy.spin(node)
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

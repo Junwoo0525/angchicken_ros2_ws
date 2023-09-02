@@ -1,0 +1,20 @@
+[1.845s] Invoking command in '/home/choi/angchicken_ros2_ws/build/pump_track': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build --no-deps install_data
+[2.216s] running develop
+[2.433s] running egg_info
+[2.434s] writing pump_track.egg-info/PKG-INFO
+[2.434s] writing dependency_links to pump_track.egg-info/dependency_links.txt
+[2.434s] writing entry points to pump_track.egg-info/entry_points.txt
+[2.435s] writing requirements to pump_track.egg-info/requires.txt
+[2.435s] writing top-level names to pump_track.egg-info/top_level.txt
+[2.465s] reading manifest file 'pump_track.egg-info/SOURCES.txt'
+[2.466s] writing manifest file 'pump_track.egg-info/SOURCES.txt'
+[2.506s] running build_ext
+[2.506s] Creating /home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages/pump-track.egg-link (link to .)
+[2.506s] Installing army_detect script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[2.506s] Installing diffbot_cont script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[2.506s] Installing pump_pub script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[2.506s] Installing usb_cam script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[2.506s] 
+[2.506s] Installed /home/choi/angchicken_ros2_ws/build/pump_track
+[2.507s] running install_data
+[2.538s] Invoked command in '/home/choi/angchicken_ros2_ws/build/pump_track' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build --no-deps install_data

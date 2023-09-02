@@ -1,0 +1,12 @@
+[1.134s] Invoking command in '/home/choi/angchicken_ros2_ws/build/pump_track': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build --no-deps install_data
+[1.443s] running develop
+[1.652s] running egg_info
+[1.652s] creating pump_track_spring.egg-info
+[1.652s] writing pump_track_spring.egg-info/PKG-INFO
+[1.652s] writing dependency_links to pump_track_spring.egg-info/dependency_links.txt
+[1.653s] writing entry points to pump_track_spring.egg-info/entry_points.txt
+[1.653s] writing requirements to pump_track_spring.egg-info/requires.txt
+[1.653s] writing top-level names to pump_track_spring.egg-info/top_level.txt
+[1.654s] writing manifest file 'pump_track_spring.egg-info/SOURCES.txt'
+[1.684s] error: package directory 'pump_track_spring' does not exist
+[1.713s] Invoked command in '/home/choi/angchicken_ros2_ws/build/pump_track' returned '1': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build --no-deps install_data

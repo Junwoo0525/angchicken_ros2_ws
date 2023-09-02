@@ -1,0 +1,23 @@
+[1.206s] Invoking command in '/home/choi/angchicken_ros2_ws/build/text_detection': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/text_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/text_detection/build
+[1.520s] running develop
+[1.747s] Invoked command in '/home/choi/angchicken_ros2_ws/build/text_detection' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/text_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/text_detection/build
+[1.751s] Invoking command in '/home/choi/angchicken_ros2_ws/src/text_detection': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/text_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/text_detection build --build-base /home/choi/angchicken_ros2_ws/build/text_detection/build install --record /home/choi/angchicken_ros2_ws/build/text_detection/install.log --install-scripts $base/lib/text_detection --single-version-externally-managed
+[2.043s] running egg_info
+[2.044s] writing ../../build/text_detection/text_detection.egg-info/PKG-INFO
+[2.044s] writing dependency_links to ../../build/text_detection/text_detection.egg-info/dependency_links.txt
+[2.044s] writing entry points to ../../build/text_detection/text_detection.egg-info/entry_points.txt
+[2.044s] writing requirements to ../../build/text_detection/text_detection.egg-info/requires.txt
+[2.044s] writing top-level names to ../../build/text_detection/text_detection.egg-info/top_level.txt
+[2.078s] reading manifest file '../../build/text_detection/text_detection.egg-info/SOURCES.txt'
+[2.079s] writing manifest file '../../build/text_detection/text_detection.egg-info/SOURCES.txt'
+[2.079s] running build
+[2.079s] running build_py
+[2.079s] running install
+[2.080s] running install_lib
+[2.082s] running install_data
+[2.083s] running install_egg_info
+[2.085s] removing '/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages/text_detection-0.0.0-py3.8.egg-info' (and everything under it)
+[2.085s] Copying ../../build/text_detection/text_detection.egg-info to /home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages/text_detection-0.0.0-py3.8.egg-info
+[2.086s] running install_scripts
+[2.104s] writing list of installed files to '/home/choi/angchicken_ros2_ws/build/text_detection/install.log'
+[2.132s] Invoked command in '/home/choi/angchicken_ros2_ws/src/text_detection' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/text_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/text_detection build --build-base /home/choi/angchicken_ros2_ws/build/text_detection/build install --record /home/choi/angchicken_ros2_ws/build/text_detection/install.log --install-scripts $base/lib/text_detection --single-version-externally-managed

@@ -1,0 +1,25 @@
+[1.581s] Invoking command in '/home/choi/angchicken_ros2_ws/build/line_following_bot': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/line_following_bot/build
+[1.909s] running develop
+[2.157s] Invoked command in '/home/choi/angchicken_ros2_ws/build/line_following_bot' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/line_following_bot/build
+[2.158s] Invoking command in '/home/choi/angchicken_ros2_ws/src/line_following_bot': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/line_following_bot build --build-base /home/choi/angchicken_ros2_ws/build/line_following_bot/build install --record /home/choi/angchicken_ros2_ws/build/line_following_bot/install.log --install-scripts $base/lib/line_following_bot --single-version-externally-managed
+[2.478s] running egg_info
+[2.488s] writing ../../build/line_following_bot/line_following_bot.egg-info/PKG-INFO
+[2.489s] writing dependency_links to ../../build/line_following_bot/line_following_bot.egg-info/dependency_links.txt
+[2.489s] writing entry points to ../../build/line_following_bot/line_following_bot.egg-info/entry_points.txt
+[2.490s] writing requirements to ../../build/line_following_bot/line_following_bot.egg-info/requires.txt
+[2.492s] writing top-level names to ../../build/line_following_bot/line_following_bot.egg-info/top_level.txt
+[2.525s] reading manifest file '../../build/line_following_bot/line_following_bot.egg-info/SOURCES.txt'
+[2.526s] writing manifest file '../../build/line_following_bot/line_following_bot.egg-info/SOURCES.txt'
+[2.526s] running build
+[2.527s] running build_py
+[2.527s] running install
+[2.528s] running install_lib
+[2.531s] running install_data
+[2.531s] running install_egg_info
+[2.535s] removing '/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot-0.0.0-py3.8.egg-info' (and everything under it)
+[2.542s] Copying ../../build/line_following_bot/line_following_bot.egg-info to /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot-0.0.0-py3.8.egg-info
+[2.543s] running install_scripts
+[2.570s] Installing image_acquisition_node script to /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/line_following_bot
+[2.572s] Installing lane_detection_node script to /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/line_following_bot
+[2.574s] writing list of installed files to '/home/choi/angchicken_ros2_ws/build/line_following_bot/install.log'
+[2.656s] Invoked command in '/home/choi/angchicken_ros2_ws/src/line_following_bot' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/line_following_bot build --build-base /home/choi/angchicken_ros2_ws/build/line_following_bot/build install --record /home/choi/angchicken_ros2_ws/build/line_following_bot/install.log --install-scripts $base/lib/line_following_bot --single-version-externally-managed

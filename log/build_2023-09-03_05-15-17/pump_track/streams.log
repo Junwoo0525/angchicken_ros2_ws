@@ -1,0 +1,22 @@
+[1.143s] Invoking command in '/home/choi/angchicken_ros2_ws/build/pump_track': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build --no-deps install_data
+[1.461s] running develop
+[1.673s] running egg_info
+[1.673s] writing pump_track.egg-info/PKG-INFO
+[1.673s] writing dependency_links to pump_track.egg-info/dependency_links.txt
+[1.674s] writing entry points to pump_track.egg-info/entry_points.txt
+[1.674s] writing requirements to pump_track.egg-info/requires.txt
+[1.674s] writing top-level names to pump_track.egg-info/top_level.txt
+[1.705s] reading manifest file 'pump_track.egg-info/SOURCES.txt'
+[1.706s] writing manifest file 'pump_track.egg-info/SOURCES.txt'
+[1.742s] running build_ext
+[1.742s] Creating /home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages/pump-track.egg-link (link to .)
+[1.743s] Installing army_detect script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[1.743s] Installing diffbot_cont script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[1.744s] Installing pump_pub script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[1.744s] Installing usb_cam script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[1.744s] 
+[1.744s] Installed /home/choi/angchicken_ros2_ws/build/pump_track
+[1.744s] running install_data
+[1.744s] copying package.xml -> /home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track
+[1.744s] error: could not create '/home/choi/angchicken_ros2_ws/install/pump_track/share/pump_track/package.xml': No such file or directory
+[1.779s] Invoked command in '/home/choi/angchicken_ros2_ws/build/pump_track' returned '1': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build --no-deps install_data

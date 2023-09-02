@@ -1,0 +1,10 @@
+running develop
+running egg_info
+creating pump_track_spring.egg-info
+writing pump_track_spring.egg-info/PKG-INFO
+writing dependency_links to pump_track_spring.egg-info/dependency_links.txt
+writing entry points to pump_track_spring.egg-info/entry_points.txt
+writing requirements to pump_track_spring.egg-info/requires.txt
+writing top-level names to pump_track_spring.egg-info/top_level.txt
+writing manifest file 'pump_track_spring.egg-info/SOURCES.txt'
+error: package directory 'pump_track_spring' does not exist

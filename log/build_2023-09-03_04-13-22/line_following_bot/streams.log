@@ -1,0 +1,66 @@
+[1.530s] Invoking command in '/home/choi/angchicken_ros2_ws/build/line_following_bot': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/line_following_bot/build
+[1.849s] running develop
+[2.061s] Removing /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line-following-bot.egg-link (link to .)
+[2.087s] Invoked command in '/home/choi/angchicken_ros2_ws/build/line_following_bot' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/line_following_bot/build
+[2.091s] Invoking command in '/home/choi/angchicken_ros2_ws/src/line_following_bot': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/line_following_bot build --build-base /home/choi/angchicken_ros2_ws/build/line_following_bot/build install --record /home/choi/angchicken_ros2_ws/build/line_following_bot/install.log --install-scripts $base/lib/line_following_bot --single-version-externally-managed
+[2.418s] running egg_info
+[2.419s] writing ../../build/line_following_bot/line_following_bot.egg-info/PKG-INFO
+[2.419s] writing dependency_links to ../../build/line_following_bot/line_following_bot.egg-info/dependency_links.txt
+[2.420s] writing entry points to ../../build/line_following_bot/line_following_bot.egg-info/entry_points.txt
+[2.420s] writing requirements to ../../build/line_following_bot/line_following_bot.egg-info/requires.txt
+[2.421s] writing top-level names to ../../build/line_following_bot/line_following_bot.egg-info/top_level.txt
+[2.462s] reading manifest file '../../build/line_following_bot/line_following_bot.egg-info/SOURCES.txt'
+[2.463s] writing manifest file '../../build/line_following_bot/line_following_bot.egg-info/SOURCES.txt'
+[2.464s] running build
+[2.464s] running build_py
+[2.465s] running install
+[2.467s] running install_lib
+[2.468s] creating /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.469s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/fog_detection.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.469s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/hough.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.470s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/warping.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.471s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/hvs.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.472s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/message.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.473s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/lane_tutorial.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.473s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/blur.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.474s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/lane_tutorial2.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.475s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/lane_detection_node_1.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.476s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/pumptrack_tracking.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.477s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/image_acquisition_node.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.478s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/army.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.478s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/wapper.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.479s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/combine.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.480s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/__init__.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.481s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/hvs_test.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.482s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/ir_camera.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.482s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/test.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.483s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/depth_capture.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.484s] copying /home/choi/angchicken_ros2_ws/build/line_following_bot/build/lib/line_following_bot/lane_detection_node.py -> /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot
+[2.487s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/fog_detection.py to fog_detection.cpython-38.pyc
+[2.489s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/hough.py to hough.cpython-38.pyc
+[2.493s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/warping.py to warping.cpython-38.pyc
+[2.495s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/hvs.py to hvs.cpython-38.pyc
+[2.496s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/message.py to message.cpython-38.pyc
+[2.498s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/lane_tutorial.py to lane_tutorial.cpython-38.pyc
+[2.500s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/blur.py to blur.cpython-38.pyc
+[2.503s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/lane_tutorial2.py to lane_tutorial2.cpython-38.pyc
+[2.505s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/lane_detection_node_1.py to lane_detection_node_1.cpython-38.pyc
+[2.506s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/pumptrack_tracking.py to pumptrack_tracking.cpython-38.pyc
+[2.508s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/image_acquisition_node.py to image_acquisition_node.cpython-38.pyc
+[2.509s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/army.py to army.cpython-38.pyc
+[2.510s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/wapper.py to wapper.cpython-38.pyc
+[2.512s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/combine.py to combine.cpython-38.pyc
+[2.514s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/__init__.py to __init__.cpython-38.pyc
+[2.515s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/hvs_test.py to hvs_test.cpython-38.pyc
+[2.516s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/ir_camera.py to ir_camera.cpython-38.pyc
+[2.517s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/test.py to test.cpython-38.pyc
+[2.518s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/depth_capture.py to depth_capture.cpython-38.pyc
+[2.520s] byte-compiling /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot/lane_detection_node.py to lane_detection_node.cpython-38.pyc
+[2.521s] running install_data
+[2.522s] running install_egg_info
+[2.524s] Copying ../../build/line_following_bot/line_following_bot.egg-info to /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages/line_following_bot-0.0.0-py3.8.egg-info
+[2.534s] running install_scripts
+[2.567s] Installing image_acquisition_node script to /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/line_following_bot
+[2.568s] Installing lane_detection_node script to /home/choi/angchicken_ros2_ws/install/line_following_bot/lib/line_following_bot
+[2.570s] writing list of installed files to '/home/choi/angchicken_ros2_ws/build/line_following_bot/install.log'
+[2.649s] Invoked command in '/home/choi/angchicken_ros2_ws/src/line_following_bot' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/line_following_bot/prefix_override:/home/choi/angchicken_ros2_ws/install/line_following_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/line_following_bot build --build-base /home/choi/angchicken_ros2_ws/build/line_following_bot/build install --record /home/choi/angchicken_ros2_ws/build/line_following_bot/install.log --install-scripts $base/lib/line_following_bot --single-version-externally-managed

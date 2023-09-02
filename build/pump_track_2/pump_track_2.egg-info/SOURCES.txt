@@ -8,6 +8,7 @@ setup.py
 ../../build/pump_track_2/pump_track_2.egg-info/requires.txt
 ../../build/pump_track_2/pump_track_2.egg-info/top_level.txt
 ../../build/pump_track_2/pump_track_2.egg-info/zip-safe
+launch/fall_launch.py
 pump_track_2/__init__.py
 pump_track_2/marker_detection.py
 pump_track_2/usb_camera_node.py

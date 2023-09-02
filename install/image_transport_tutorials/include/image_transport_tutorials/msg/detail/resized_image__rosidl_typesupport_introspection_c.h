@@ -1,0 +1,1 @@
+/home/choi/angchicken_ros2_ws/build/image_transport_tutorials/rosidl_typesupport_introspection_c/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_introspection_c.h

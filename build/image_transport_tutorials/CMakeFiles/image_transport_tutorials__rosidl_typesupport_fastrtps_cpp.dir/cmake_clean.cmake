@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/image_transport_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/image_transport_tutorials/msg/detail/dds_fastrtps/resized_image__type_support.cpp.o"
+  "CMakeFiles/image_transport_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/image_transport_tutorials/msg/detail/dds_fastrtps/resized_image__type_support.cpp.o.d"
+  "libimage_transport_tutorials__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libimage_transport_tutorials__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/image_transport_tutorials/msg/detail/dds_fastrtps/resized_image__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/image_transport_tutorials__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

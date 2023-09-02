@@ -1,0 +1,16 @@
+[1.636s] Invoking command in '/home/choi/angchicken_ros2_ws/build/text_detection': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/text_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/text_detection/build --no-deps install_data
+[2.163s] running develop
+[2.363s] running egg_info
+[2.364s] writing text_detection.egg-info/PKG-INFO
+[2.364s] writing dependency_links to text_detection.egg-info/dependency_links.txt
+[2.364s] writing entry points to text_detection.egg-info/entry_points.txt
+[2.365s] writing requirements to text_detection.egg-info/requires.txt
+[2.365s] writing top-level names to text_detection.egg-info/top_level.txt
+[2.393s] reading manifest file 'text_detection.egg-info/SOURCES.txt'
+[2.394s] writing manifest file 'text_detection.egg-info/SOURCES.txt'
+[2.431s] running build_ext
+[2.432s] Creating /home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages/text-detection.egg-link (link to .)
+[2.432s] 
+[2.433s] Installed /home/choi/angchicken_ros2_ws/build/text_detection
+[2.433s] running install_data
+[2.468s] Invoked command in '/home/choi/angchicken_ros2_ws/build/text_detection' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/text_detection/prefix_override:/home/choi/angchicken_ros2_ws/install/text_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/text_detection/build --no-deps install_data

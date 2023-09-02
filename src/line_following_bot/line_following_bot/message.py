@@ -35,7 +35,7 @@ for i in range(len(aruco_dict.bytesList)):
     img_path = "/home/choi/angchicken_ros2_ws/src/line_following_bot/line_following_bot/picture/" + str(i) + ".png"
     cv2.imwrite(img_path, aruco.drawMarker(aruco_dict, i, 128))
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(6) # 카메라 번화 확인 필요
 save_intv = 1  # 사진 저장 간격 (1초)
 last_save_t = time.time()  # 마지막으로 사진을 저장한 시간
 save_count = 0

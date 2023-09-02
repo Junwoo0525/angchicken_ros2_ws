@@ -47,8 +47,8 @@ class ObjectDetectionNode(Node):
         self.publisher.publish(detected_image_msg)
 
         # Display the frame in a window
-        cv2.imshow("Object Detection", frame)
-        cv2.waitKey(1)  # Adjust the waitKey value for the desired frame display time
+        #cv2.imshow("Object Detection", frame)
+        #cv2.waitKey(1)  # Adjust the waitKey value for the desired frame display time
 
 def main(args=None):
     rclpy.init(args=args)

@@ -16,10 +16,12 @@ setup(
     maintainer='choi',
     maintainer_email='jwchoi0017@gmail.com',
     description='TODO: Package description',
-    license='TODO: License declaration',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+          'usb_cam = pump_track_2.usb_camera_node:main',
+          'marker_detect = pump_track_2.marker_detection:main'
         ],
     },
 )

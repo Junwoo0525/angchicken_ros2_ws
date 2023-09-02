@@ -39,7 +39,7 @@ class DiffbotPublisher(Node):
         if mode in self.command_mapping:
             #go staight
             if mode == '1':
-                linear_x = 3.0
+                linear_x = 1.5
                 linear_y = 0.0
                 linear_z = 0.0
                 angular_x = 0.0
@@ -53,7 +53,7 @@ class DiffbotPublisher(Node):
                 linear_z = 0.0
                 angular_x = 0.0
                 angular_y = 0.0
-                angular_z = -60.0
+                angular_z = -20.0
                 self.publish_velocity(linear_x, linear_y, linear_z, angular_x, angular_y, angular_z)
             #Turn Left
             elif mode == '3':
@@ -62,7 +62,7 @@ class DiffbotPublisher(Node):
                 linear_z = 0.0
                 angular_x = 0.0
                 angular_y = 0.0
-                angular_z = 60.0
+                angular_z = 20.0
                 self.publish_velocity(linear_x, linear_y, linear_z, angular_x, angular_y, angular_z)
             elif mode == '4':
                 linear_x = 0.0

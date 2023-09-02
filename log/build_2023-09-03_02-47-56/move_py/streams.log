@@ -1,0 +1,29 @@
+[1.279s] Invoking command in '/home/choi/angchicken_ros2_ws/build/move_py': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/move_py/prefix_override:/home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/move_py/build
+[1.870s] running develop
+[2.091s] Removing /home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages/move-py.egg-link (link to .)
+[2.125s] Invoked command in '/home/choi/angchicken_ros2_ws/build/move_py' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/move_py/prefix_override:/home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/move_py/build
+[2.126s] Invoking command in '/home/choi/angchicken_ros2_ws/src/move_py': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/move_py/prefix_override:/home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_py build --build-base /home/choi/angchicken_ros2_ws/build/move_py/build install --record /home/choi/angchicken_ros2_ws/build/move_py/install.log --install-scripts $base/lib/move_py --single-version-externally-managed
+[2.524s] running egg_info
+[2.534s] writing ../../build/move_py/move_py.egg-info/PKG-INFO
+[2.534s] writing dependency_links to ../../build/move_py/move_py.egg-info/dependency_links.txt
+[2.534s] writing entry points to ../../build/move_py/move_py.egg-info/entry_points.txt
+[2.534s] writing requirements to ../../build/move_py/move_py.egg-info/requires.txt
+[2.534s] writing top-level names to ../../build/move_py/move_py.egg-info/top_level.txt
+[2.605s] reading manifest file '../../build/move_py/move_py.egg-info/SOURCES.txt'
+[2.605s] writing manifest file '../../build/move_py/move_py.egg-info/SOURCES.txt'
+[2.605s] running build
+[2.605s] running build_py
+[2.609s] running install
+[2.610s] running install_lib
+[2.611s] creating /home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages/move_py
+[2.612s] copying /home/choi/angchicken_ros2_ws/build/move_py/build/lib/move_py/robot_motion_node.py -> /home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages/move_py
+[2.612s] copying /home/choi/angchicken_ros2_ws/build/move_py/build/lib/move_py/__init__.py -> /home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages/move_py
+[2.613s] byte-compiling /home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages/move_py/robot_motion_node.py to robot_motion_node.cpython-38.pyc
+[2.615s] byte-compiling /home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages/move_py/__init__.py to __init__.cpython-38.pyc
+[2.615s] running install_data
+[2.616s] running install_egg_info
+[2.619s] Copying ../../build/move_py/move_py.egg-info to /home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages/move_py-0.0.0-py3.8.egg-info
+[2.623s] running install_scripts
+[2.643s] Installing robot_motion_node script to /home/choi/angchicken_ros2_ws/install/move_py/lib/move_py
+[2.645s] writing list of installed files to '/home/choi/angchicken_ros2_ws/build/move_py/install.log'
+[2.678s] Invoked command in '/home/choi/angchicken_ros2_ws/src/move_py' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/move_py/prefix_override:/home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_py build --build-base /home/choi/angchicken_ros2_ws/build/move_py/build install --record /home/choi/angchicken_ros2_ws/build/move_py/install.log --install-scripts $base/lib/move_py --single-version-externally-managed

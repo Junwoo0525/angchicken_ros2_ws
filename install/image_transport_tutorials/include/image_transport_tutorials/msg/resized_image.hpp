@@ -1,0 +1,1 @@
+/home/choi/angchicken_ros2_ws/build/image_transport_tutorials/rosidl_generator_cpp/image_transport_tutorials/msg/resized_image.hpp

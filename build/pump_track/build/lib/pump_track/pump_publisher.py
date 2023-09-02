@@ -113,7 +113,7 @@ def main(args=None):
 
             # Calculate the recognized percentage
             recognized_percentage = calculateRecognizedPercentage(masked_edges)
-            print(recognized_percentage)
+            #print(recognized_percentage)
             # Determine whether to display the hist_image
             display = True  # Set this to True or False based on your needs
 

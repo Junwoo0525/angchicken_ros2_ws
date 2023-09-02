@@ -1,0 +1,1 @@
+/home/choi/angchicken_ros2_ws/src/image_transport_tutorials/msg/ResizedImage.msg

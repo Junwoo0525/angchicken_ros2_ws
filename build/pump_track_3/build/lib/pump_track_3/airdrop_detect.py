@@ -11,11 +11,11 @@ GREEN = (0, 255, 0)
 WHITE = (255, 255, 255)
 GRAY = (102, 102, 102)
 
-coco128 = open('./Air_drop_box/air-drop-box.txt', 'r')
+coco128 = open('/home/choi/angchicken_ros2_ws/src/pump_track_3/pump_track_3/Air_drop_box/air-drop-box.txt', 'r')
 data = coco128.read()
 class_list = data.split('\n')
 # coco128.close()
-model = YOLO('./src/best.pt')
+model = YOLO('/home/choi/angchicken_ros2_ws/src/pump_track_3/pump_track_3/best.pt')
 
 pipeline = rs.pipeline()
 config = rs.config()

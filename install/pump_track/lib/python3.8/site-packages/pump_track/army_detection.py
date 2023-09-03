@@ -29,6 +29,7 @@ class ObjectDetectionNode(Node):
         detection = self.model(frame)[0]
         m_detected = False
 
+
         for data in detection.boxes.data.tolist():
             xmin, ymin, xmax, ymax = map(int, data[:4])
             label = int(data[5])

@@ -27,6 +27,7 @@ setup(
                 'diffbot_cont = pump_track.diffbot_control:main',
                 'army_detect = pump_track.army_detection:main',
                 'usb_cam = pump_track.usb_camera_node:main',
+                'track_pub_node = pump_track.track_pub_node:main',
         ],
     },
 )

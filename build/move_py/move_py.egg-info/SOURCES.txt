@@ -10,7 +10,11 @@ setup.py
 ../../build/move_py/move_py.egg-info/zip-safe
 move_py/__init__.py
 move_py/robot_motion_node.py
+move_py.egg-info/PKG-INFO
+move_py.egg-info/SOURCES.txt
+move_py.egg-info/dependency_links.txt
+move_py.egg-info/entry_points.txt
+move_py.egg-info/requires.txt
+move_py.egg-info/top_level.txt
+move_py.egg-info/zip-safe
 resource/move_py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

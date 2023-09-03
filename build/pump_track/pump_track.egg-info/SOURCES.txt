@@ -14,8 +14,13 @@ pump_track/army_detection.py
 pump_track/diffbot_control.py
 pump_track/pump_publisher.py
 pump_track/pump_publisher_ver2.py
+pump_track/track_pub_node.py
 pump_track/usb_camera_node.py
+pump_track.egg-info/PKG-INFO
+pump_track.egg-info/SOURCES.txt
+pump_track.egg-info/dependency_links.txt
+pump_track.egg-info/entry_points.txt
+pump_track.egg-info/requires.txt
+pump_track.egg-info/top_level.txt
+pump_track.egg-info/zip-safe
 resource/pump_track
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

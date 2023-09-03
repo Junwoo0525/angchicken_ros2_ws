@@ -14,7 +14,11 @@ lane_detection_py/lane_detection_node.py
 lane_detection_py/lane_detection_sample_node.py
 lane_detection_py/py_tutorial.py
 lane_detection_py/realsense_rviz.py
+lane_detection_py.egg-info/PKG-INFO
+lane_detection_py.egg-info/SOURCES.txt
+lane_detection_py.egg-info/dependency_links.txt
+lane_detection_py.egg-info/entry_points.txt
+lane_detection_py.egg-info/requires.txt
+lane_detection_py.egg-info/top_level.txt
+lane_detection_py.egg-info/zip-safe
 resource/lane_detection_py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

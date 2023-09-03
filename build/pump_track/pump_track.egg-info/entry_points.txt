@@ -3,5 +3,6 @@ army_detect = pump_track.army_detection:main
 diffbot_cont = pump_track.diffbot_control:main
 pump_pub = pump_track.pump_publisher:main
 pump_pub_2 = pump_track.pump_publisher_ver2:main
+track_pub_node = pump_track.track_pub_node:main
 usb_cam = pump_track.usb_camera_node:main
 

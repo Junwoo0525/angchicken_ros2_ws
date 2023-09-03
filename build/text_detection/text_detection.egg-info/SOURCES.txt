@@ -9,10 +9,14 @@ setup.py
 ../../build/text_detection/text_detection.egg-info/top_level.txt
 ../../build/text_detection/text_detection.egg-info/zip-safe
 resource/text_detection
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 text_detection/__init__.py
 text_detection/cnn_text_detection_training.py
 text_detection/text_detection.py
 text_detection/text_detection_training.py
+text_detection.egg-info/PKG-INFO
+text_detection.egg-info/SOURCES.txt
+text_detection.egg-info/dependency_links.txt
+text_detection.egg-info/entry_points.txt
+text_detection.egg-info/requires.txt
+text_detection.egg-info/top_level.txt
+text_detection.egg-info/zip-safe

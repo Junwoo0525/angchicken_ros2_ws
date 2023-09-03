@@ -10,7 +10,11 @@ setup.py
 ../../build/color_detection/color_detection.egg-info/zip-safe
 color_detection/__init__.py
 color_detection/color_detection.py
+color_detection.egg-info/PKG-INFO
+color_detection.egg-info/SOURCES.txt
+color_detection.egg-info/dependency_links.txt
+color_detection.egg-info/entry_points.txt
+color_detection.egg-info/requires.txt
+color_detection.egg-info/top_level.txt
+color_detection.egg-info/zip-safe
 resource/color_detection
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

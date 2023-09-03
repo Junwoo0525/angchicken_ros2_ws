@@ -1,0 +1,28 @@
+running develop
+running egg_info
+writing ../../build/pump_track_3/pump_track_3.egg-info/PKG-INFO
+writing dependency_links to ../../build/pump_track_3/pump_track_3.egg-info/dependency_links.txt
+writing entry points to ../../build/pump_track_3/pump_track_3.egg-info/entry_points.txt
+writing requirements to ../../build/pump_track_3/pump_track_3.egg-info/requires.txt
+writing top-level names to ../../build/pump_track_3/pump_track_3.egg-info/top_level.txt
+reading manifest file '../../build/pump_track_3/pump_track_3.egg-info/SOURCES.txt'
+writing manifest file '../../build/pump_track_3/pump_track_3.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pump_track_3/track_pub_node.py -> /home/choi/angchicken_ros2_ws/build/pump_track_3/build/lib/pump_track_3
+copying pump_track_3/imu_dir.py -> /home/choi/angchicken_ros2_ws/build/pump_track_3/build/lib/pump_track_3
+copying pump_track_3/track_d.py -> /home/choi/angchicken_ros2_ws/build/pump_track_3/build/lib/pump_track_3
+running install
+running install_lib
+copying /home/choi/angchicken_ros2_ws/build/pump_track_3/build/lib/pump_track_3/track_pub_node.py -> /home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump_track_3
+copying /home/choi/angchicken_ros2_ws/build/pump_track_3/build/lib/pump_track_3/imu_dir.py -> /home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump_track_3
+copying /home/choi/angchicken_ros2_ws/build/pump_track_3/build/lib/pump_track_3/track_d.py -> /home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump_track_3
+byte-compiling /home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump_track_3/track_pub_node.py to track_pub_node.cpython-38.pyc
+byte-compiling /home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump_track_3/imu_dir.py to imu_dir.cpython-38.pyc
+byte-compiling /home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump_track_3/track_d.py to track_d.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump_track_3-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/pump_track_3/pump_track_3.egg-info to /home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump_track_3-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/choi/angchicken_ros2_ws/build/pump_track_3/install.log'

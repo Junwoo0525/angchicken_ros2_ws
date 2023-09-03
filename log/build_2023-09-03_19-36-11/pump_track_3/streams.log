@@ -1,0 +1,16 @@
+[1.390s] Invoking command in '/home/choi/angchicken_ros2_ws/build/pump_track_3': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track_3/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track_3/build --no-deps install_data
+[1.718s] running develop
+[1.965s] running egg_info
+[1.966s] writing pump_track_3.egg-info/PKG-INFO
+[1.966s] writing dependency_links to pump_track_3.egg-info/dependency_links.txt
+[1.966s] writing entry points to pump_track_3.egg-info/entry_points.txt
+[1.967s] writing requirements to pump_track_3.egg-info/requires.txt
+[1.967s] writing top-level names to pump_track_3.egg-info/top_level.txt
+[2.000s] reading manifest file 'pump_track_3.egg-info/SOURCES.txt'
+[2.000s] writing manifest file 'pump_track_3.egg-info/SOURCES.txt'
+[2.039s] running build_ext
+[2.039s] Creating /home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump-track-3.egg-link (link to .)
+[2.040s] 
+[2.040s] Installed /home/choi/angchicken_ros2_ws/build/pump_track_3
+[2.041s] running install_data
+[2.096s] Invoked command in '/home/choi/angchicken_ros2_ws/build/pump_track_3' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track_3/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track_3/build --no-deps install_data

@@ -23,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
                 'pump_pub = pump_track.pump_publisher:main',
+                'pump_pub_2 = pump_track.pump_publisher_ver2:main',
                 'diffbot_cont = pump_track.diffbot_control:main',
                 'army_detect = pump_track.army_detection:main',
                 'usb_cam = pump_track.usb_camera_node:main',

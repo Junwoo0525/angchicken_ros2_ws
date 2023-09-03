@@ -1,0 +1,17 @@
+[1.502s] Invoking command in '/home/choi/angchicken_ros2_ws/build/move_py': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/move_py/prefix_override:/home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/move_py/build --no-deps install_data
+[1.817s] running develop
+[2.031s] running egg_info
+[2.031s] writing move_py.egg-info/PKG-INFO
+[2.031s] writing dependency_links to move_py.egg-info/dependency_links.txt
+[2.031s] writing entry points to move_py.egg-info/entry_points.txt
+[2.032s] writing requirements to move_py.egg-info/requires.txt
+[2.032s] writing top-level names to move_py.egg-info/top_level.txt
+[2.065s] reading manifest file 'move_py.egg-info/SOURCES.txt'
+[2.066s] writing manifest file 'move_py.egg-info/SOURCES.txt'
+[2.103s] running build_ext
+[2.103s] Creating /home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages/move-py.egg-link (link to .)
+[2.104s] Installing robot_motion_node script to /home/choi/angchicken_ros2_ws/install/move_py/lib/move_py
+[2.104s] 
+[2.105s] Installed /home/choi/angchicken_ros2_ws/build/move_py
+[2.105s] running install_data
+[2.141s] Invoked command in '/home/choi/angchicken_ros2_ws/build/move_py' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/move_py/prefix_override:/home/choi/angchicken_ros2_ws/install/move_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/angchicken_ros2_ws/build/move_py/build --no-deps install_data

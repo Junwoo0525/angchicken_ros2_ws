@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing pump_track_3.egg-info/PKG-INFO
+writing dependency_links to pump_track_3.egg-info/dependency_links.txt
+writing entry points to pump_track_3.egg-info/entry_points.txt
+writing requirements to pump_track_3.egg-info/requires.txt
+writing top-level names to pump_track_3.egg-info/top_level.txt
+reading manifest file 'pump_track_3.egg-info/SOURCES.txt'
+writing manifest file 'pump_track_3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/choi/angchicken_ros2_ws/install/pump_track_3/lib/python3.8/site-packages/pump-track-3.egg-link (link to .)
+
+Installed /home/choi/angchicken_ros2_ws/build/pump_track_3
+running install_data

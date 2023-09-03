@@ -1,0 +1,3 @@
+[console_scripts]
+robot_motion_node = move_py.robot_motion_node:main
+

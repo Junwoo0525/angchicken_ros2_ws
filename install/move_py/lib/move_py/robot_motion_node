@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'move-py','console_scripts','robot_motion_node'
-__requires__ = 'move-py'
+# EASY-INSTALL-ENTRY-SCRIPT: 'move-py==0.0.0','console_scripts','robot_motion_node'
+__requires__ = 'move-py==0.0.0'
 import re
 import sys
 from pkg_resources import load_entry_point
@@ -8,5 +8,5 @@ from pkg_resources import load_entry_point
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
     sys.exit(
-        load_entry_point('move-py', 'console_scripts', 'robot_motion_node')()
+        load_entry_point('move-py==0.0.0', 'console_scripts', 'robot_motion_node')()
     )

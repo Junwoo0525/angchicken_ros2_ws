@@ -1,0 +1,34 @@
+[1.260s] Invoking command in '/home/choi/angchicken_ros2_ws/build/pump_track': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build
+[1.653s] running develop
+[1.946s] Invoked command in '/home/choi/angchicken_ros2_ws/build/pump_track' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/choi/angchicken_ros2_ws/build/pump_track/build
+[1.947s] Invoking command in '/home/choi/angchicken_ros2_ws/src/pump_track': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pump_track build --build-base /home/choi/angchicken_ros2_ws/build/pump_track/build install --record /home/choi/angchicken_ros2_ws/build/pump_track/install.log --install-scripts $base/lib/pump_track --single-version-externally-managed
+[2.273s] running egg_info
+[2.274s] writing ../../build/pump_track/pump_track.egg-info/PKG-INFO
+[2.274s] writing dependency_links to ../../build/pump_track/pump_track.egg-info/dependency_links.txt
+[2.275s] writing entry points to ../../build/pump_track/pump_track.egg-info/entry_points.txt
+[2.275s] writing requirements to ../../build/pump_track/pump_track.egg-info/requires.txt
+[2.275s] writing top-level names to ../../build/pump_track/pump_track.egg-info/top_level.txt
+[2.313s] reading manifest file '../../build/pump_track/pump_track.egg-info/SOURCES.txt'
+[2.314s] writing manifest file '../../build/pump_track/pump_track.egg-info/SOURCES.txt'
+[2.315s] running build
+[2.315s] running build_py
+[2.315s] copying pump_track/pump_publisher_ver2.py -> /home/choi/angchicken_ros2_ws/build/pump_track/build/lib/pump_track
+[2.316s] copying pump_track/pump_publisher.py -> /home/choi/angchicken_ros2_ws/build/pump_track/build/lib/pump_track
+[2.316s] running install
+[2.317s] running install_lib
+[2.317s] copying /home/choi/angchicken_ros2_ws/build/pump_track/build/lib/pump_track/pump_publisher_ver2.py -> /home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages/pump_track
+[2.318s] copying /home/choi/angchicken_ros2_ws/build/pump_track/build/lib/pump_track/pump_publisher.py -> /home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages/pump_track
+[2.318s] byte-compiling /home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages/pump_track/pump_publisher_ver2.py to pump_publisher_ver2.cpython-38.pyc
+[2.320s] byte-compiling /home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages/pump_track/pump_publisher.py to pump_publisher.cpython-38.pyc
+[2.322s] running install_data
+[2.323s] running install_egg_info
+[2.329s] removing '/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages/pump_track-0.0.0-py3.8.egg-info' (and everything under it)
+[2.331s] Copying ../../build/pump_track/pump_track.egg-info to /home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages/pump_track-0.0.0-py3.8.egg-info
+[2.332s] running install_scripts
+[2.351s] Installing army_detect script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[2.352s] Installing diffbot_cont script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[2.352s] Installing pump_pub script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[2.352s] Installing pump_pub_2 script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[2.353s] Installing usb_cam script to /home/choi/angchicken_ros2_ws/install/pump_track/lib/pump_track
+[2.353s] writing list of installed files to '/home/choi/angchicken_ros2_ws/build/pump_track/install.log'
+[2.388s] Invoked command in '/home/choi/angchicken_ros2_ws/src/pump_track' returned '0': PYTHONPATH=/home/choi/angchicken_ros2_ws/build/pump_track/prefix_override:/home/choi/angchicken_ros2_ws/install/pump_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pump_track build --build-base /home/choi/angchicken_ros2_ws/build/pump_track/build install --record /home/choi/angchicken_ros2_ws/build/pump_track/install.log --install-scripts $base/lib/pump_track --single-version-externally-managed
